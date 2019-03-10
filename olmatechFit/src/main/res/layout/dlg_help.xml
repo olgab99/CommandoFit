@@ -27,7 +27,8 @@
 	    android:adjustViewBounds="true"
 	    android:onClick="onButtonClick"
 	    android:scaleType="fitCenter"
-	    android:src="@drawable/email" />		<TextView
+	    android:src="@drawable/email" />	
+	<TextView
 	    android:id="@+id/help_contact"
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
@@ -49,8 +50,7 @@
 	    android:scaleType="fitCenter"
 	    android:src="@drawable/edit" />
   <TextView
-	    android:id="@+id/help_about"
-	    android:layout_width="wrap_content"
+      android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"	   
 	    android:layout_marginLeft="10dp"
 	     android:layout_toRightOf="@+id/help_logo"

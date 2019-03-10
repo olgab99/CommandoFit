@@ -42,8 +42,7 @@
          android:text="Exercise"
          android:textAppearance="@style/titleTextGreen" />	
  <LinearLayout
-        android:id="@+id/cont_center"
-        android:layout_width="match_parent"
+     android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/bottomFragment"
         android:layout_below="@+id/txt_title2"

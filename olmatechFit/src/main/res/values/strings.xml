@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Commando Fit</string>
-    <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
     <string name="installing">Installing&#8230;</string>
     <string name="processing">Processing&#8230; Please wait</string>
     <string name="installerror">Error installing database. Please try re-installing application.</string>
@@ -11,12 +9,8 @@
     <string name="close">CLOSE</string>   
     <string name="save">SAVE</string>
     <string name="about">About</string>
-    <string name="post_facebook">POST TO FACEBOOK</string>
     <string name="unlicensed_dialog_title">Application not licensed</string>
-    <string name="unlicensed_dialog_body">This application is not licensed. Please purchase it from Android Market.</string>
-    <string name="unlicensed_dialog_retry_body">Unable to validate license. Check to see if a network connection is available.</string>
     <string name="buy_button">Buy app</string>
-    <string name="retry_button">Retry</string>
     <string name="quit_button">Exit</string>
     <string name="reset_progr">RESET EXERCISE PROGRAM</string>
     <string name="reset_maxrep">REMOVE ALL RECOMMENDED WEIGHT VALUES</string>
@@ -51,7 +45,6 @@
     <string name="low">LOW</string>
     <string name="average">AVERAGE</string>
     <string name="high">HIGH</string>
-    <string name="next">NEXT</string>
     <string name="edit_later">You can access it from Menu and input later</string>
     <string name="one_rep_max_title">ONE REP MAX CALCULATOR</string>
     <string name="unit_convertx_title">WEIGHT / DISTANCE CONVERTER</string>
@@ -64,7 +57,6 @@
     <string name="but_settings">SETTINGS</string>
     <string name="yes">YES</string>
     <string name="no">NO</string>
-    <string name="do_today">DO WORKOUT NOW</string>
     <string name="make_current">MAKE DAY CURRENT</string>
     <string name="logs">VIEW PROGRAM CALENDAR AND WORKOUTS LOGS</string>  
     <string name="but_finish">FINISH WORKOUT AND GO TO HOME SCREEN</string>
@@ -73,7 +65,6 @@
     <string name="set_complete">CLOSE &amp; SET DAY COMPLETED</string>
     <string name="set_not_complete">CLOSE WITHOUT COMPLETING THE DAY</string>
     <string name="change">CHANGE</string>
-    <string name="advanced">EDIT WEIGHT DISPLAY</string>
     <string name="select_music">SELECT PLAYLIST</string>
     <string name="but_calculate">CALCULATE</string>
     <string name="set_default">SET TO DEFAULT</string>
@@ -81,10 +72,7 @@
     <string name="but_hr">TARGET HEART RATE (GENERAL)</string>
     <string name="but_hr2">TARGET HEART RATE (KARVONEN)</string>
     <string name="change_date">CHANGE DATE</string>
-    <string name="post_status_update">POST STATUS UPDATE</string>
-    <string name="post_photo">POST PHOTO</string>
     <string name="music">MUSIC</string>
-    <string name="stop">STOP</string>
     <!--  lisensing -->
     <string name="retry">Retry</string>
     <string name="use_no_lisence">Use without license this time</string>
@@ -96,7 +84,6 @@
     <string name="rest">REST</string>
     <string name="playlists">PLAYLISTS</string>
     <string name="email_us">Drop us a line</string>
-    <string name="status_update">Status update message</string>   
     <string name="show_shed">Show program schedule</string>
     <string name="filter">Filter</string>
     <string name="increment_start">INCREMENT START</string>
@@ -107,9 +94,8 @@
     <string name="email_log">Email workout log</string>
     <string name="cardio">CARDIO</string>
     <string name="set">SET</string>
-    <string name="ex_list">EXERCISE LIST</string>     
-    <string name="sets">SETS</string>   
-    <string name="modules">MODULES</string>     
+    <string name="ex_list">EXERCISE LIST</string>
+    <string name="modules">MODULES</string>
      <string name="calendar_prompt">Choose a log type</string>
      <string-array name="log_modes_arrays">
          <item>Complete program</item>
@@ -147,11 +133,7 @@
     <string name="title_cardio_zones">:(age %d)</string>
     <string name="title_cardiohr">:(age %1$d, resting heart rate %2$d)</string>
     <!-- Menu -->
-    <string name="calculate">calculate</string>
-    <string name="timer">timer</string>
-    <string name="options">options</string>
-    <string name="help">help</string>
-    <string name="start">START</string> 
+    <string name="start">START</string>
     <string name="select_title">SELECT</string>
     <string name="view">VIEW</string>    
     <string name="pause">PAUSE</string>
@@ -163,8 +145,7 @@
     <string name="contin">CONTINUE</string>
     <string name="reset">RESET</string>
     <string name="distance">DISTANCE</string>
-    <string name="str_type">TYPE</string>
-    <string name="time">TIME</string>   
+    <string name="time">TIME</string>
     <string name="laps">LAPS</string>
     <string name="remove_last_rep">REMOVE LAST SET</string>
     <string name="clear_log_msg">Remove all log entries for current workout?</string>
@@ -178,7 +159,6 @@
     <string name="date_select_title">Select month and year.</string>
     <!-- Calculators -->
     <string name="calculators">CALCULATORS</string>
-    <string name="maxrep">One Rep Max</string>    
     <string name="hr_title">Target Heart Rate Calculator (General)</string>
     <string name="hr_subtitle">Target HR Zone 50&#8211;85% from Maximum heart rate</string>
     <string name="hr_karvonen_title">Target Heart Rate Calculator (Karvonen)</string>
@@ -195,7 +175,6 @@
     <string name="msg_logs">Seems that you already started this workout today. Tap YES if you would like to continue this workout and load saved logs. Tap NO to start  new workout.</string>
     <string name="mag_select_date">Please select correct month and year.</string>
     <string name="msg_set_day_current">Are you sure you want to change your current day? Tap YES to change, or CANCEL.</string>
-    <string name="msg_go_back">Are you sure you want to close workout without completing it? Tap YES to close workout screen or CANCEL to continue.</string> 
     <string name="msg_save">Are you sure you want to close workout? Tap SAVE LOG &amp; CLOSE to save workout log, CLOSE WITHOUT SAVING LOG to discard log, or CANCEL to continue workout.</string>
     <string name="msg_progr_completed">Congratulation, you completed the program!</string>
     <string name="msg_reset">Exercise program completed. Please select Reset Exercise Program from application Menu to set the program to beginning.</string>
@@ -205,53 +184,34 @@
     <string name="prompt_wt_break">Select weight increment start</string>
     <string name="msg_input">Please input value(s)</string>
     <string name="msg_no_playlist">No playlists found. Please use your Media Playser application to create a playlist.</string>
-   <string name="msg_load_playlist">No music found. Please select music from your playlists.</string>
-   <string name="msg_no_music">No music found. Please tap SELECT PLAYLIST button to load music from your playlists.</string>
+    <string name="msg_no_music">No music found. Please tap SELECT PLAYLIST button to load music from your playlists.</string>
    <string name="msg_playlist">Tap SELECT PLAYLIST to select Playlist to play. You can create and edit your Playlists using your Media Player application.</string>
     <string name="msg_no_card">Seems that your device does not have SD card. Applications needs a SD card to play music.</string>
    <string name="msg_sel_playlist">Please select playlist</string>
    <string name="msg_no_songs">Selected Playlist does not contain any music. Please add music to this playlist using your Media Player or select different playlist.</string>
-   <string name="msg_no_camera">Seems that your device does not have camera</string>
-   <string name="msg_wk_complete">Workout completed</string>
+    <string name="msg_wk_complete">Workout completed</string>
    <string name="msg_cardio_on">Please complete current exercise before starting next.</string>
    <string name="msg_time_notcomplete">Are you sure you want to finish this exercise? You did not complete the time set. Tap DONE to finish or CONTINUE to continue.</string>
-   <string name="msg_quit">Do you want to close the application?</string>
-   <!-- Errors -->
+    <!-- Errors -->
     <string name="err_start_music_server">Seems that application does not have permission to start music service on your device.</string>
     <string name="err_load_playlist">Error loading playlist. Please try again or create new play list using your Media Player application.</string>
      <string name="errstart">Error starting application. Please re-install if problem persists.</string>
     <string name="err_reading_workout">Sorry, error reading workout information. Please try again.</string>
-    <string name="err_set_completed">Sorry, error updating log. Please try again.</string>
     <string name="err_reading_data">Sorry, error reading data. Please try again.</string>
     <string name="err_save_data">Error saving data.</string>
     <string name="err_save_log">Error saving log. Please try again.</string>
-    <string name="err_save_log_weight">Error saving log - please input weight.</string>
     <string name="err_input_age">Please input age.</string>
     <string name="err_input_hr">Please input resting heart rate.</string>
     <string name="err_processing">Error processing request</string> 
     <string name="err_zero_laps">No laps completed - nothing to save. Tap FINISH WORKOUT to close, or CONTINUE to continue.</string>  
     <string name="finish_workout">FINISH WORKOUT</string>
     <string name="err_saving_log_yesno">Error saving log. Tap FINISH WORKOUT to close workout, or CONTINUE to continue workout and try again.</string>
-    <string name="sample_string"><![CDATA[1 <br />2<br />3]]></string>
     <string name="err_invalid_mode">Error processing data - Invalid workout mode. Please try again.</string>
     <string name="err_reading_next">Sorry, error reading next workout information. Please try to set workout Complete from the workout list, or reset the exercise program if you completed it.</string>
 	<string name="err_completing_workout">Error completing workout.</string>
 	<string name="err_low_memory">You device has low memory.</string>
 	<string name="support_email">apps@olmatech.com</string>
 <!-- Facebook -->
-	<string name="cancelled">Cancelled</string>
-    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
-    <string name="hello_user">Hello %1$s!</string>
-    <string name="success">Success</string>
-    <string name="successfully_posted_post">Successfully posted \'%1$s\'.\nPost ID: %2$s</string>
-    <string name="successfully_posted">Update successfully posted</string>
-    <string name="error">Error posting update.</string>
-   <string name="update_msg">Status update posted from Commando Fit app.</string>
-    <string name="photo_post">Photo Post</string>
-    <string name="you_picked">You picked:</string>
-    <string name="add_picture">ADD PICTURE</string>
-    <string name="choose_pic_msg">Choose picture</string>
-    <string name="add_from_camera">ADD FROM CAMERA</string>
     <string name="app_id">598988450142911</string>
     <!-- disclaimer -->
     <string name="disclimer">You should consult with your doctor before starting any exercise program. Application and its contents are made available without warranties or guarantees of any kind and application vendor disclaims any liability for any type or form of injury, including personal, or damage of any kind or type resulting from the use of this application. This includes personal physical injury from performing any exercise described, or any and all forms of injury and/or damage to person, both animate or inanimate, mental, physical, electronic or any and other form of injury currently described or that may be described in the future in any medical dictionary, law books, fitness and training informational sources, and any and all other sources.</string>

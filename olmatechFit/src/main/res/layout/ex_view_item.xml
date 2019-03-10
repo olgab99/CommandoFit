@@ -39,7 +39,7 @@
       android:src="@drawable/back_row_m" />
 
   </RelativeLayout>  
- <RelativeLayout android:id="@+id/container_txt_ex_name"
+ <RelativeLayout
      android:layout_width="wrap_content"
   	    android:layout_height="wrap_content"
   	    android:layout_alignBottom="@+id/img_cont"

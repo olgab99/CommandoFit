@@ -8,8 +8,7 @@
     android:text="@string/hr_title"  />   
 <ImageView android:id="@+id/common_small_close"
  	style="@style/closeButton" />
-<ImageView  android:id="@+id/common_but_help" 
-	    style="@style/helpButton" />
+<ImageView style="@style/helpButton" />
 <TextView android:id="@+id/hr_subtitle"
 	     android:layout_width="match_parent"
 	     android:layout_height="wrap_content"     

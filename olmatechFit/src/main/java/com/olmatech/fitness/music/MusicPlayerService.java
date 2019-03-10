@@ -12,7 +12,7 @@ import android.media.MediaPlayer;
 import android.os.Binder;
 import android.os.IBinder;
 //import android.telephony.PhoneStateListener;
-import android.telephony.TelephonyManager;
+//import android.telephony.TelephonyManager;
 import android.util.Log;
 
 import com.olmatech.fitness.main.Common;

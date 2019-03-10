@@ -6,8 +6,7 @@
     style="@style/dlgContainer">
     <ImageView android:id="@+id/common_small_close"
  	style="@style/closeButton" />
-    <ImageView  android:id="@+id/common_but_help" 
-	    style="@style/helpButton" />
+    <ImageView style="@style/helpButton" />
     <ProgressBar android:id="@+id/progrBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

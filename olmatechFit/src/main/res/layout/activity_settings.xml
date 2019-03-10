@@ -15,8 +15,7 @@
 	     android:textAppearance="@style/formTitleText" />
 	 <ImageView android:id="@+id/common_small_close"
  		style="@style/closeButton" />
-	<ImageView  android:id="@+id/common_but_help" 
-	    style="@style/helpButton" />
+	<ImageView style="@style/helpButton" />
 	<TextView android:id="@+id/settings_timer"
 	     android:layout_width="match_parent"
 	     android:layout_height="wrap_content"     
@@ -66,7 +65,8 @@
        android:layout_alignParentLeft="true"
        android:layout_marginLeft="20dp"
        android:layout_marginTop="10dp"       
-       android:text="@string/settings_sound" />   <CheckBox
+       android:text="@string/settings_sound" />
+   <CheckBox
        android:id="@+id/cb_start"
        style="@style/checkBx"
        android:layout_below="@+id/cb_sound"

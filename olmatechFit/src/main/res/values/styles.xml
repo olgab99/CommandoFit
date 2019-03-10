@@ -22,15 +22,8 @@
      <!--      <item name="android:spinnerStyle">@style/ot_spinner</item>  -->
  		<item name="android:windowAnimationStyle">@style/Animations.Dissapear</item> 
     </style>
-    <style name="Theme.Transparent" parent="android:Theme">
-	    <item name="android:windowIsTranslucent">true</item>
-	    <item name="android:windowBackground">@android:color/transparent</item>
-	    <item name="android:windowContentOverlay">@null</item>
-	    <item name="android:windowNoTitle">true</item>
-	    <item name="android:windowIsFloating">true</item>
-	    <item name="android:backgroundDimEnabled">false</item>
-	  </style>	 
-	<style name="NoTitleDialog" parent="android:style/Theme.Dialog">
+
+    <style name="NoTitleDialog" parent="android:style/Theme.Dialog">
     	<item name="android:windowNoTitle">true</item>
     	<item name="android:windowBackground">@drawable/bg_dlg</item>
 	</style>
@@ -40,12 +33,7 @@
         <item name="android:windowExitAnimation">@anim/dissapear</item> 
     </style>
     <!-- Activity backgr -->
-    <style name="activityBg">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">match_parent</item>
-   <!--      <item name="android:background">@drawable/screen</item>    insert activity backgr -->    
-    </style> 
-    <style name="listWkLabelText"> 
+    <style name="listWkLabelText">
 		<item name="android:textSize">@dimen/list_wk_txt_sz</item>  
 		<item name="android:textStyle">bold</item>  
 		<item name="android:textColor">@color/txt_dark</item>	
@@ -185,18 +173,8 @@
 	    <item name="android:paddingRight">20dip</item>
 	    <item name="android:paddingTop">10dip</item>
 	</style>
-	<style name ="listStartButton">
-	    <item name="android:layout_height">wrap_content</item> 
-	    <item name="android:layout_width">wrap_content</item>   	   
-	    <item name="android:textAppearance">@style/mainButtonText</item>
-	     <item name="android:background">#CCCCCC</item>
-	    <item name="android:layout_marginBottom">6dp</item>	   
-	    <item name="android:paddingBottom">6dp</item>
-	    <item name="android:paddingLeft">6dp</item>
-	    <item name="android:paddingRight">6dp</item>
-	    <item name="android:paddingTop">6dp</item>
-	</style>
-	<style name ="contMenuButton">
+
+    <style name ="contMenuButton">
 	    <item name="android:layout_height">wrap_content</item> 
 	    <item name="android:layout_width">wrap_content</item> 	    
 	     <item name="android:background">@drawable/cont_menu_but_selector</item>
@@ -219,14 +197,9 @@
 	    <item name="android:paddingLeft">20dip</item>
 	    <item name="android:paddingRight">20dip</item>
 	    <item name="android:paddingTop">10dip</item>
-	</style>	
-	<style name="MenuText"> 
-		<item name="android:textSize">16sp</item>  
-		<item name="android:textColor">#999999</item>
-		<item name="android:textStyle">bold</item>  	
-		<item name="android:gravity">center_horizontal|top</item>		
 	</style>
-	<style name="bottomBar">
+
+    <style name="bottomBar">
 	    <item name="android:layout_width">fill_parent</item>
 	    <item name="android:layout_height">wrap_content</item>
 	    <item name="android:layout_marginLeft">20dp</item>
@@ -307,15 +280,8 @@
 	   		 <item name="android:layout_marginBottom">2dp</item>
 	   		 <item name="android:paddingRight">6dp</item>
 	   </style>
-	<style name="menuButtonGeneric">	        
-	   		 <item name="android:layout_height">wrap_content</item>
-	   		 <item name="android:background">@drawable/blue_but_selector</item>
-	   		 <item name="android:textAppearance">@style/ListButtonText</item>    
-	   		 <item name="android:layout_marginTop">2dp</item>
-	   		 <item name="android:layout_marginBottom">2dp</item>	
-	   		 <item name="android:paddingRight">6dp</item>   		 
-	   </style>
-    <style name="tbrow">    
+
+    <style name="tbrow">
         <item name="android:background">@color/txt_light</item> 
         <item name="android:layout_width">match_parent</item>
       	<item name="android:layout_height">wrap_content</item>

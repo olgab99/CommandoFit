@@ -13,7 +13,6 @@
      android:text="1"
      android:textAppearance="@style/whiteSmallLogText" />
  <ImageView
-     android:id="@+id/imageView1"
      android:layout_width="14dp"
      android:layout_height="14dp"
      android:adjustViewBounds="true"

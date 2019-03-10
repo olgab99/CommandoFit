@@ -18,8 +18,7 @@
 	 <!-- Top buttons -->
 	 <ImageView android:id="@+id/common_small_close"
  		style="@style/closeButton" />
-	<ImageView  android:id="@+id/common_but_help" 
-	    style="@style/helpButton" />
+	<ImageView style="@style/helpButton" />
 	<TextView android:id="@+id/interview_subtitle"
 	     android:layout_width="match_parent"
 	     android:layout_height="wrap_content"     
@@ -241,7 +240,6 @@
 	    android:text="@string/save" />
    </LinearLayout>
    <TextView
-       android:id="@+id/interview_bot_msg"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:layout_alignParentBottom="true"

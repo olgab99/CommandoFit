@@ -3,8 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent" android:layout_height="@dimen/bot_fr_h_tab"        
     android:orientation="horizontal" android:weightSum="4.0"
-    android:id="@+id/menuBotContainer"
-    android:background="@drawable/menu_bar_bg"    
+    android:background="@drawable/menu_bar_bg"
     android:layout_alignParentBottom="true"     
     android:paddingBottom="6dip" android:paddingTop="6dip">
     <!-- Back -->
@@ -26,9 +25,8 @@
         android:id="@+id/bgMenuCalc"          
         android:layout_weight="1">
   <ImageView  android:layout_width="wrap_content"
-        android:layout_height="fill_parent" 
-        android:id="@+id/butCalc" 
-        android:src="@drawable/calculator"
+        android:layout_height="fill_parent"
+      android:src="@drawable/calculator"
         android:layout_alignParentTop="true"	  
         android:layout_centerHorizontal="true"
         android:adjustViewBounds="true" android:scaleType="fitCenter" />  
@@ -52,9 +50,8 @@
         android:id="@+id/bgMenuOpt"                
         android:layout_weight="1">
   <ImageView  android:layout_width="wrap_content"
-        android:layout_height="fill_parent" 
-        android:id="@+id/butOpt"  
-        android:src="@drawable/menu"
+        android:layout_height="fill_parent"
+      android:src="@drawable/menu"
         android:layout_alignParentTop="true"	  
         android:layout_centerHorizontal="true"
         android:adjustViewBounds="true" android:scaleType="fitCenter" />
@@ -65,9 +62,8 @@
         android:id="@+id/bgMenuHelp"         
         android:layout_weight="1">
   <ImageView  android:layout_width="wrap_content"
-        android:layout_height="fill_parent" 
-        android:id="@+id/butHelp"  
-        android:src="@drawable/help"
+        android:layout_height="fill_parent"
+      android:src="@drawable/help"
         android:layout_alignParentTop="true"	  
         android:layout_centerHorizontal="true"
         android:adjustViewBounds="true" android:scaleType="fitCenter" />  

@@ -51,7 +51,7 @@
     android:layout_width="match_parent"     
     android:layout_height="0dp" android:orientation="vertical"
     android:layout_weight="0.3" >
-<TextView android:id="@+id/cardio_title"
+<TextView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:paddingLeft="30dp"    
@@ -83,7 +83,7 @@
         style="@style/logListStyle" />  
  <!--  end cardio -->
   <!--  devider -->
- <View  android:id="@+id/divider"
+ <View
      android:layout_width="match_parent"
     android:layout_height="4dp" />  
  </LinearLayout>  <!--  end cardio part -->

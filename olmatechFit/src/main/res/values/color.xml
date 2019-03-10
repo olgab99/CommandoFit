@@ -4,7 +4,6 @@
     <color name="dkgray">#666666</color>
     <color name="bgcolor">#2A2B2B</color>
     <color name="list_item_on">#E6E6E6</color>
-    <color name="list_item_on_trans">#AAE6E6E6</color>
     <color name="wk_list_item">#999999</color>
     <color name="wk_list_item_active">#CCCCCC</color>
     <color name="wk_dark_gray">#414042</color>
@@ -14,17 +13,14 @@
     <color name="but_content_on">#666666</color>
     <color name="lt_blue">#29ABE2</color>
     <color name="yellow">#FFFF99</color>
-    <color name="yellow_on">#FCEE21</color>
     <color name="ex_active">#996666</color>
     <color name="lt_gray">#CCCCCC</color>
     <color name="lt_yellow">#F2EBC2</color>
     <color name="dark_yellow">#FFFF1C</color>
     <color name="darkest_grey">#1A1A1A</color>
     <color name="cal_cell_border">#CCCCCC</color>
-    <color name="list_group_bg">#CCCCCC</color>
-    <color name="nolog">#CC99CC</color> 
-    <color name="cal_future">#99CCFF</color>  
-    <color name="main_but_off">#AACCCCCC</color> 
+    <color name="nolog">#CC99CC</color>
+    <color name="cal_future">#99CCFF</color>
     <color name="main_but_on">#AAE6E6E6</color>
     <color name="col_green">#009900</color>
 </resources>
