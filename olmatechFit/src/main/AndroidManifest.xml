@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.olmatech.fitness"
+    android:versionCode="11"
+    android:versionName="1.10" >
+	 <!-- For Samsung 
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />	
+    End For Samsung -->
+	<!--  For Google licensing 
+	<uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+	  End For Google licensing  -->
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="26" />
+    <uses-permission android:name="android.permission.INTERNET"/> 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application xmlns:tools="http://schemas.android.com/tools"
+        tools:replace="android:label,android:icon"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ui.StartActivity"
+            android:label="@string/app_name" android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.SplashActivityPhone" android:theme="@style/Theme.BlueWindow"
+            android:label="@string/app_name"  android:screenOrientation="portrait"  />        
+        <activity
+            android:name=".ui.MainActivityPhone" android:theme="@style/Theme.BlueWindow"
+            android:label="@string/app_name" android:screenOrientation="portrait"  />          
+         <activity
+            android:name=".ui.FirstActivityPhone" android:theme="@style/Theme.BlueWindow"
+            android:label="@string/app_name"  android:screenOrientation="portrait" android:launchMode="singleTask"  />
+         <activity
+            android:name=".ui.ExerciseActivityPhone" android:theme="@style/Theme.BlueWindow"
+            android:label="@string/app_name"  android:screenOrientation="portrait"  android:windowSoftInputMode="stateHidden"  /> 
+          <activity
+            android:name=".ui.TackticalActivity" android:theme="@style/Theme.BlueWindow"
+            android:label="@string/app_name"  android:screenOrientation="portrait"  android:windowSoftInputMode="stateHidden"  />   
+           <activity
+            android:name=".ui.ExListActivity" android:theme="@style/NoTitleDialog"
+            android:label="@string/app_name" android:screenOrientation="portrait"  />
+         <activity
+            android:name=".ui.InterviewActivity" android:theme="@style/NoTitleDialog"
+            android:label="@string/app_name" android:screenOrientation="portrait"  />  
+         <activity
+            android:name=".ui.CalcMenuActivity" android:theme="@style/NoTitleDialog"
+            android:label="@string/app_name" android:screenOrientation="portrait"  />   
+          <activity
+            android:name=".ui.MenuActivity" android:theme="@style/NoTitleDialog"
+            android:label="@string/app_name" android:screenOrientation="portrait"  />           
+         <activity
+            android:name=".ui.MaxrepActivity" android:theme="@style/NoTitleDialog"
+            android:label="@string/app_name" android:screenOrientation="portrait"  />   
+         <activity
+            android:name=".ui.HrCalculatorActivity" android:theme="@style/NoTitleDialog"
+            android:label="@string/app_name" android:screenOrientation="portrait"  />   
+          <activity
+            android:name=".ui.SettingsActivity" android:theme="@style/NoTitleDialog"
+            android:label="@string/app_name" android:screenOrientation="portrait"  />      
+           <activity
+            android:name=".ui.HelpActivity" android:theme="@style/Theme.BlueWindow"
+            android:label="@string/app_name" android:screenOrientation="portrait"  /> 
+          <activity
+            android:name=".ui.LogListDlgActivity" android:theme="@style/NoTitleDialog"
+            android:label="@string/app_name" android:screenOrientation="portrait"  />   
+          <activity
+            android:name=".ui.CardioZonesActivity" android:theme="@style/Theme.BlueWindow"
+            android:label="@string/app_name" android:screenOrientation="portrait"  />  
+          <activity
+            android:name=".ui.ExImageViewActivity" android:theme="@style/NoTitleDialog"
+            android:label="@string/app_name" android:screenOrientation="portrait"  />    
+           <activity
+            android:name=".ui.LogCalendarActivity" android:theme="@style/Theme.BlueWindow"
+            android:label="@string/app_name" android:screenOrientation="portrait"  />    
+           <activity
+            android:name=".ui.LogViewActivity" android:theme="@style/Theme.BlueWindow"
+            android:label="@string/app_name" android:screenOrientation="portrait"  />     
+           <activity
+            android:name=".ui.PopupDlgActivity" android:theme="@style/NoTitleDialog"
+            android:label="@string/app_name" android:screenOrientation="portrait"  />
+        <activity
+            android:name=".ui.DateSelectActivity" android:theme="@style/NoTitleDialog"
+            android:label="@string/app_name" android:screenOrientation="portrait"  /> 
+            <activity
+            android:name=".ui.AdvancedSettingsActivity" android:theme="@style/NoTitleDialog"
+            android:label="@string/app_name" android:screenOrientation="portrait"  />
+          <activity
+            android:name=".music.PlaylistActivity" android:theme="@style/NoTitleDialog"
+            android:label="@string/app_name" android:screenOrientation="portrait"  /> 
+            <activity
+            android:name=".music.PlayMusicActivity" android:theme="@style/NoTitleDialog"
+            android:label="@string/app_name" android:screenOrientation="portrait"  />
+           <activity
+            android:name=".ui.UnitConvertActivity" android:theme="@style/NoTitleDialog"
+            android:label="@string/app_name" android:screenOrientation="portrait"  />   
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id"/>    
+   <service android:name=".music.MusicPlayerService" android:permission="android.permission.READ_SOCIAL_STREAM"></service>   
+   <receiver android:name=".music.MusicIntentReceiver">
+   <intent-filter>
+      <action android:name="android.media.AUDIO_BECOMING_NOISY" />
+   </intent-filter>
+	</receiver> 
+	<receiver android:name=".music.OutgoingReceiver" >
+        <intent-filter>
+            <action android:name="android.intent.action.PHONE_STATE" />
+        </intent-filter>
+        <intent-filter>
+            <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+        </intent-filter>
+    </receiver>             
+    </application>
+</manifest>

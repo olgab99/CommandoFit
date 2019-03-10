@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/dlgContainer"  >
+ <TextView android:id="@+id/txt_title"
+        style="@style/dlgMenuTitle"
+        android:text="@string/playlists" />
+ <TextView android:id="@+id/txt_subtitle"
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"     
+	     android:layout_marginBottom="20dp"
+	     android:layout_below="@+id/txt_title"
+	     android:layout_centerHorizontal="true"
+	     android:gravity="center_horizontal"	     
+	     android:text="@string/msg_sel_playlist"
+	     android:textAppearance="@style/formText" /> 
+ <ListView android:id="@+id/list_playlist"       
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  
+        android:layout_below="@+id/txt_title"  
+        android:layout_above="@+id/cont_buttons"
+        android:paddingTop="@dimen/list_pad_top_bot"
+        android:paddingBottom="@dimen/list_pad_top_bot"       
+        android:cacheColorHint="#00000000"
+        android:drawSelectorOnTop="false"
+        android:divider = "@android:color/transparent"
+        android:dividerHeight ="6dp"
+		android:listSelector="@android:color/transparent" android:layout_marginTop="@dimen/margin_top_bot"
+		android:layout_marginBottom="@dimen/margin_top_bot"  />  
+ <ProgressBar android:id="@+id/progrBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyle"
+        android:layout_centerInParent="true" />  
+ <!-- Buttons -->
+ <!--  
+  <com.olmatech.fitness.controls.AppButton android:id="@+id/but_clear"
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_above="@+id/cont_buttons"
+        style="@style/blueButtonGeneric"        
+	    android:textAllCaps="true" 
+	    android:onClick="onButtonClick"
+	    android:text="CLEAR PLAYLIST" />
+	-->
+  <LinearLayout android:id="@+id/cont_buttons"
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+	    android:orientation="horizontal"
+	    android:paddingLeft="10dp"
+	    android:paddingRight="10dp"
+	     android:paddingTop="20dp"
+	    android:weightSum="1" >  
+  <com.olmatech.fitness.controls.AppButton android:id="@+id/but_cancel"
+        android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginRight="10dp"
+        style="@style/blueButtonGeneric"
+        android:layout_weight="0.5"
+	    android:textAllCaps="true" 
+	    android:onClick="onButtonClick"
+	    android:text="@string/cancel_but" />
+ <com.olmatech.fitness.controls.AppButton android:id="@+id/but_close"
+        android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+        style="@style/blueButtonGeneric"
+        android:layout_weight="0.5"
+        android:layout_marginLeft="10dp"
+	    android:textAllCaps="true" 
+	    android:onClick="onButtonClick"
+	    android:text="@string/save" />
+  </LinearLayout>    
+</RelativeLayout>

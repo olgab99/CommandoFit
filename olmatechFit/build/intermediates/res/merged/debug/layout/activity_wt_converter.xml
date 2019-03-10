@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:olmatech.fitness="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarAlwaysDrawVerticalTrack="true" >
+
+    <LinearLayout
+        style="@style/dlgContainer"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txt_title"
+            style="@style/dlgTitle"
+            android:text="@string/unit_convertx_title" />
+
+        <fragment
+            android:id="@+id/frag_weight"
+            android:name="com.olmatech.fitness.view.UnitConverterFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            olmatech.fitness:title="WEIGHT CONVERTER"            
+            olmatech.fitness:radio1="LBS"
+            olmatech.fitness:radio2="KG"
+            olmatech.fitness:coeff1="0.453592"
+            olmatech.fitness:coeff2="2.20462"
+            olmatech.fitness:radio1ResUnits="kg"
+            olmatech.fitness:radio2ResUnits="lb"
+            tools:layout="@layout/fragment_wt_converter" />
+
+        <fragment
+            android:id="@+id/frag_dist"
+            android:name="com.olmatech.fitness.view.UnitConverterFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            olmatech.fitness:title="DISTANCE CONVERTER"            
+            olmatech.fitness:radio1="MI"
+            olmatech.fitness:radio2="KM"
+            olmatech.fitness:coeff1="1.60934"
+            olmatech.fitness:coeff2="0.621371"
+            olmatech.fitness:radio1ResUnits="km"
+            olmatech.fitness:radio2ResUnits="mi"
+            tools:layout="@layout/fragment_wt_converter" />
+        <!--  Close buttons --> 
+   <com.olmatech.fitness.controls.AppButton android:id="@+id/but_close"
+        style="@style/blueButton"       
+         android:onClick="onButtonClick"     
+         android:layout_marginBottom="20dp"        
+         android:text="@string/close"
+         android:textAllCaps="true" />
+
+    </LinearLayout>
+
+</ScrollView>

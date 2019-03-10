@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="log_modes_arrays">
+         <item>Complete program</item>
+         <item>Endurance / Mass Modules</item>
+         <item>Tactical</item>
+     </string-array>
+    <string-array name="month_array">
+  	    <item>JANUARY</item>
+  	    <item>FEBRUARY</item>
+  	    <item>MARCH</item>
+  	    <item>APRIL</item>
+  	    <item>MAY</item>
+  	    <item>JUNE</item>
+  	    <item>JULY</item>
+  	    <item>AUGUST</item>
+  	    <item>SEPTEMBER</item>
+  	    <item>OCTOBER</item>
+  	    <item>NOVEMBER</item>
+  	    <item>DECEMBER</item>
+  	</string-array>
+    <string-array name="weight_inc">
+  	    <item>1</item>
+  	    <item>2</item>
+  	    <item>3</item>
+  	    <item>4</item>
+  	    <item>5</item>
+  	</string-array>
+    <color name="bgcolor">#2A2B2B</color>
+    <color name="but_content">#464646</color>
+    <color name="but_content_on">#666666</color>
+    <color name="cal_cell_border">#CCCCCC</color>
+    <color name="cal_future">#99CCFF</color>
+    <color name="col_green">#009900</color>
+    <color name="dark_yellow">#FFFF1C</color>
+    <color name="darkest_grey">#1A1A1A</color>
+    <color name="dkgray">#666666</color>
+    <color name="ex_active">#996666</color>
+    <color name="list_group_bg">#CCCCCC</color>
+    <color name="list_item_on">#E6E6E6</color>
+    <color name="list_item_on_trans">#AAE6E6E6</color>
+    <color name="lt_blue">#29ABE2</color>
+    <color name="lt_gray">#CCCCCC</color>
+    <color name="lt_yellow">#F2EBC2</color>
+    <color name="main_but_off">#AACCCCCC</color>
+    <color name="main_but_on">#AAE6E6E6</color>
+    <color name="nolog">#CC99CC</color>
+    <color name="transparent">#00000000</color>
+    <color name="txt_dark">#1A1A1A</color>
+    <color name="txt_light">#E6E6E6</color>
+    <color name="wk_dark_gray">#414042</color>
+    <color name="wk_list_item">#999999</color>
+    <color name="wk_list_item_active">#CCCCCC</color>
+    <color name="yellow">#FFFF99</color>
+    <color name="yellow_on">#FCEE21</color>
+    <declare-styleable name="AppTextViewSizable"><attr format="integer" name="tabTextSize"/><attr format="integer" name="phoneTextSize"/></declare-styleable>
+    <declare-styleable name="UnitConverterFragment"><attr format="string" name="title"/><attr format="string" name="radio1"/><attr format="string" name="radio2"/><attr format="float" name="coeff1"/><attr format="float" name="coeff2"/><attr format="string" name="radio1ResUnits"/><attr format="string" name="radio2ResUnits"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="arrow_img">20dp</dimen>
+    <dimen name="arrow_img_tab">40dp</dimen>
+    <dimen name="bot_fr_h">40dp</dimen>
+    <dimen name="bot_fr_h_tab">60dp</dimen>
+    <dimen name="button_lr_margin">20dp</dimen>
+    <dimen name="cal_day">12sp</dimen>
+    <dimen name="cal_item">8sp</dimen>
+    <dimen name="cardio_eq_img">40dp</dimen>
+    <dimen name="cardio_eq_img_tab">80dp</dimen>
+    <dimen name="ex_list_item_corner">10dp</dimen>
+    <dimen name="form_txt">14sp</dimen>
+    <dimen name="list_item_height">80dp</dimen>
+    <dimen name="list_item_height_tab">120dp</dimen>
+    <dimen name="list_pad_top_bot">8dp</dimen>
+    <dimen name="list_wk_txt_sz">10sp</dimen>
+    <dimen name="margin_top_bot">6dp</dimen>
+    <dimen name="padding_aver">8dp</dimen>
+    <dimen name="radio_group_padding">20dp</dimen>
+    <dimen name="rail_width">6dp</dimen>
+    <dimen name="wheel_title">10sp</dimen>
+    <dimen name="wk_list_item_corner">10dp</dimen>
+    <string name="about">About</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_from_camera">ADD FROM CAMERA</string>
+    <string name="add_picture">ADD PICTURE</string>
+    <string name="advanced">EDIT WEIGHT DISPLAY</string>
+    <string name="age">AGE</string>
+    <string name="app_id">598988450142911</string>
+    <string name="app_name">Commando Fit</string>
+    <string name="average">AVERAGE</string>
+    <string name="but_all">COMPLETE PROGRAM</string>
+    <string name="but_calculate">CALCULATE</string>
+    <string name="but_endur">STRENGTH / ENDURANCE</string>
+    <string name="but_finish">FINISH WORKOUT AND GO TO HOME SCREEN</string>
+    <string name="but_hr">TARGET HEART RATE (GENERAL)</string>
+    <string name="but_hr2">TARGET HEART RATE (KARVONEN)</string>
+    <string name="but_mass">MASS / STRENGTH</string>
+    <string name="but_onemaxrep">ONE REP MAX</string>
+    <string name="but_settings">SETTINGS</string>
+    <string name="but_tact">TACTICAL</string>
+    <string name="buy_button">Buy app</string>
+    <string name="calculate">calculate</string>
+    <string name="calculators">CALCULATORS</string>
+    <string name="calendar_month_prompt">Select month</string>
+    <string name="calendar_prompt">Choose a log type</string>
+    <string name="calendar_year_prompt">Select year</string>
+    <string name="cancel_but">CANCEL</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="cardio">CARDIO</string>
+    <string name="cardio_msg_common">Set cardio machine to 5 mi (6 km) per hour</string>
+    <string name="cardio_zones">Cardio zones</string>
+    <string name="change">CHANGE</string>
+    <string name="change_date">CHANGE DATE</string>
+    <string name="choose_pic_msg">Choose picture</string>
+    <string name="clear_log_msg">Remove all log entries for current workout?</string>
+    <string name="close">CLOSE</string>
+    <string name="close_no_save">CLOSE WITHOUT SAVING LOG</string>
+    <string name="complete">COMPLETE</string>
+    <string name="complete_workout">YES, DONE WORKOUT</string>
+    <string name="contin">CONTINUE</string>
+    <string name="date_select_title">Select month and year.</string>
+    <string name="del_all_logs_msg">Delete all workout logs?</string>
+    <string name="delete_logs">DELETE ALL LOGS</string>
+    <string name="disclimer">You should consult with your doctor before starting any exercise program. Application and its contents are made available without warranties or guarantees of any kind and application vendor disclaims any liability for any type or form of injury, including personal, or damage of any kind or type resulting from the use of this application. This includes personal physical injury from performing any exercise described, or any and all forms of injury and/or damage to person, both animate or inanimate, mental, physical, electronic or any and other form of injury currently described or that may be described in the future in any medical dictionary, law books, fitness and training informational sources, and any and all other sources.</string>
+    <string name="distance">DISTANCE</string>
+    <string name="do_today">DO WORKOUT NOW</string>
+    <string name="done">DONE</string>
+    <string name="done_workout">DONE WORKOUT</string>
+    <string name="edit_later">You can access it from Menu and input later</string>
+    <string name="email_log">Email workout log</string>
+    <string name="email_us">Drop us a line</string>
+    <string name="err_completing_workout">Error completing workout.</string>
+    <string name="err_input_age">Please input age.</string>
+    <string name="err_input_hr">Please input resting heart rate.</string>
+    <string name="err_invalid_mode">Error processing data - Invalid workout mode. Please try again.</string>
+    <string name="err_load_playlist">Error loading playlist. Please try again or create new play list using your Media Player application.</string>
+    <string name="err_low_memory">You device has low memory.</string>
+    <string name="err_processing">Error processing request</string>
+    <string name="err_reading_data">Sorry, error reading data. Please try again.</string>
+    <string name="err_reading_next">Sorry, error reading next workout information. Please try to set workout Complete from the workout list, or reset the exercise program if you completed it.</string>
+    <string name="err_reading_workout">Sorry, error reading workout information. Please try again.</string>
+    <string name="err_save_data">Error saving data.</string>
+    <string name="err_save_log">Error saving log. Please try again.</string>
+    <string name="err_save_log_weight">Error saving log - please input weight.</string>
+    <string name="err_saving_log_yesno">Error saving log. Tap FINISH WORKOUT to close workout, or CONTINUE to continue workout and try again.</string>
+    <string name="err_set_completed">Sorry, error updating log. Please try again.</string>
+    <string name="err_start_music_server">Seems that application does not have permission to start music service on your device.</string>
+    <string name="err_zero_laps">No laps completed - nothing to save. Tap FINISH WORKOUT to close, or CONTINUE to continue.</string>
+    <string name="error">Error posting update.</string>
+    <string name="errstart">Error starting application. Please re-install if problem persists.</string>
+    <string name="ex_list">EXERCISE LIST</string>
+    <string name="female">FEMALE</string>
+    <string name="filter">Filter</string>
+    <string name="finish_workout">FINISH WORKOUT</string>
+    <string name="fitness_level">FITNESS LEVEL</string>
+    <string name="hello">Hello World, SQLiteCursorLoaderActivity!</string>
+    <string name="hello_user">Hello %1$s!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="help">help</string>
+    <string name="high">HIGH</string>
+    <string name="hr_karvonen_subtitle">This calculator is more accurate than general hard rate calculator, but requires resting heart rate input. To accurately measure your resting heart rate: Count your pulse on your wrist or on the side of your neck prior to getting out of the bed in the morning. Count the number of beats, starting with zero, for one full minute. For accuracy, take your resting heart rate three mornings in a row and average the heart rates. Target HR Zone 50–85% from Maximum heart rate.</string>
+    <string name="hr_karvonen_title">Target Heart Rate Calculator (Karvonen)</string>
+    <string name="hr_rest_hr">RESTING HEART RATE</string>
+    <string name="hr_subtitle">Target HR Zone 50–85% from Maximum heart rate</string>
+    <string name="hr_title">Target Heart Rate Calculator (General)</string>
+    <string name="increment_start">INCREMENT START</string>
+    <string name="installerror">Error installing database. Please try re-installing application.</string>
+    <string name="installing">Installing…</string>
+    <string name="interval">INTERVAL</string>
+    <string name="interview">INTERVIEW</string>
+    <string name="interview_subtitle">Before you start, please enter following information:"</string>
+    <string name="kg">kg</string>
+    <string name="km">km</string>
+    <string name="laps">LAPS</string>
+    <string name="lb">lb</string>
+    <string name="lbs">lbs</string>
+    <string name="lisensing_error">Application Licensing</string>
+    <string name="log">LOG</string>
+    <string name="log_del_witherrors">Log removed with errors</string>
+    <string name="logs">VIEW PROGRAM CALENDAR AND WORKOUTS LOGS</string>
+    <string name="logs_del_witherrors">Logs removed with errors</string>
+    <string name="logs_deleted">All workout logs deleted</string>
+    <string name="logs_ex_deleted">Exercise log deleted</string>
+    <string name="logs_removed">Workout log deleted</string>
+    <string name="low">LOW</string>
+    <string name="mag_select_date">Please select correct month and year.</string>
+    <string name="make_current">MAKE DAY CURRENT</string>
+    <string name="male">MALE</string>
+    <string name="max_rep_msg">YOUR APPROXIMATE 1 REP MAX</string>
+    <string name="maxrep">One Rep Max</string>
+    <string name="ml">mi</string>
+    <string name="modules">MODULES</string>
+    <string name="msg_cardio_on">Please complete current exercise before starting next.</string>
+    <string name="msg_complete">You did not save any laps. Are you sure you want to close workout? Tap CLOSE WITHOUT COMPLETING THE DAY to close workout so you can do it later, CLOSE &amp; SET DAY COMPLETED to complete the day, or CANCEL to continue workout.</string>
+    <string name="msg_finish">You did not complete all exercises. Tap YES to set this workout as completed, or NO to close this screen without completing the workout (so you can continue it later).</string>
+    <string name="msg_finish_module">You did not complete all exercises. Tap CLOSE to finish this workout, or CANCEL to continue.</string>
+    <string name="msg_go_back">Are you sure you want to close workout without completing it? Tap YES to close workout screen or CANCEL to continue.</string>
+    <string name="msg_input">Please input value(s)</string>
+    <string name="msg_load_playlist">No music found. Please select music from your playlists.</string>
+    <string name="msg_logs">Seems that you already started this workout today. Tap YES if you would like to continue this workout and load saved logs. Tap NO to start  new workout.</string>
+    <string name="msg_no_camera">Seems that your device does not have camera</string>
+    <string name="msg_no_card">Seems that your device does not have SD card. Applications needs a SD card to play music.</string>
+    <string name="msg_no_logs">No workout log found for this workout.</string>
+    <string name="msg_no_music">No music found. Please tap SELECT PLAYLIST button to load music from your playlists.</string>
+    <string name="msg_no_playlist">No playlists found. Please use your Media Playser application to create a playlist.</string>
+    <string name="msg_no_songs">Selected Playlist does not contain any music. Please add music to this playlist using your Media Player or select different playlist.</string>
+    <string name="msg_playlist">Tap SELECT PLAYLIST to select Playlist to play. You can create and edit your Playlists using your Media Player application.</string>
+    <string name="msg_progr_completed">Congratulation, you completed the program!</string>
+    <string name="msg_progr_reset_ok">Your exercise program was reset successfully</string>
+    <string name="msg_quit">Do you want to close the application?</string>
+    <string name="msg_reset">Exercise program completed. Please select Reset Exercise Program from application Menu to set the program to beginning.</string>
+    <string name="msg_reset_maxrep">Click YES to remove all saved recommended weight values from all exercises, or CANCEL.</string>
+    <string name="msg_reset_maxrep_cur">Click YES to remove saved recommended weight values from current exercise, or CANCEL.</string>
+    <string name="msg_reset_progr">Click YES to reset - all workout logs will be deleted and current day set to Block 1 Day 1. Are you sure this is what you want to do?</string>
+    <string name="msg_save">Are you sure you want to close workout? Tap SAVE LOG &amp; CLOSE to save workout log, CLOSE WITHOUT SAVING LOG to discard log, or CANCEL to continue workout.</string>
+    <string name="msg_sel_playlist">Please select playlist</string>
+    <string name="msg_set_day_current">Are you sure you want to change your current day? Tap YES to change, or CANCEL.</string>
+    <string name="msg_start_workout">Tap START to start selected workout outside of Complete exercise program, or CANCEL.</string>
+    <string name="msg_time_notcomplete">Are you sure you want to finish this exercise? You did not complete the time set. Tap DONE to finish or CONTINUE to continue.</string>
+    <string name="msg_wight_inc">Choose how weight values are displayed in the weight input wheel. Select increment interval for weight input from INTERVAL dropdown and number from which weight will be incremented by interval value from INCREMENT START dropdown. For example, if Increment Interval set to 5 and  Interval Start set to 15, your weight input values will be 1,2,3,4,...... 12,13,14,15,20,25,30, 35 and so on.</string>
+    <string name="msg_wk_complete">Workout completed</string>
+    <string name="music">MUSIC</string>
+    <string name="next">NEXT</string>
+    <string name="no">NO</string>
+    <string name="not_complete">NOT COMPLETE</string>
+    <string name="not_complete_workout">NO, WILL CONTINUE</string>
+    <string name="ok_but">OK</string>
+    <string name="one_rep_max_subtitle">Enter the weight and number of repetitions performed till failure. This test should be performed with a spotter for reasons of safety.</string>
+    <string name="one_rep_max_title">ONE REP MAX CALCULATOR</string>
+    <string name="options">options</string>
+    <string name="pause">PAUSE</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="photo_post">Photo Post</string>
+    <string name="playlists">PLAYLISTS</string>
+    <string name="post_facebook">POST TO FACEBOOK</string>
+    <string name="post_photo">POST PHOTO</string>
+    <string name="post_status_update">POST STATUS UPDATE</string>
+    <string name="processing">Processing… Please wait</string>
+    <string name="prompt_wt_break">Select weight increment start</string>
+    <string name="prompt_wt_interval">Select weight increment interval</string>
+    <string name="quit">Quit</string>
+    <string name="quit_button">Exit</string>
+    <string name="remove_last_rep">REMOVE LAST SET</string>
+    <string name="reps">REPS</string>
+    <string name="reset">RESET</string>
+    <string name="reset_maxrep">REMOVE ALL RECOMMENDED WEIGHT VALUES</string>
+    <string name="reset_maxrep_cur">REMOVE CURRENT RECOMMENDED WEIGHT VALUE</string>
+    <string name="reset_progr">RESET EXERCISE PROGRAM</string>
+    <string name="reset_workout_log">RESET CURRENT WORKOUT LOG</string>
+    <string name="rest">REST</string>
+    <string name="retry">Retry</string>
+    <string name="retry_button">Retry</string>
+    <string name="sample_string">1 &lt;br />2&lt;br />3</string>
+    <string name="save">SAVE</string>
+    <string name="save_and_close">SAVE LOG &amp; CLOSE</string>
+    <string name="select_music">SELECT PLAYLIST</string>
+    <string name="select_title">SELECT</string>
+    <string name="set">SET</string>
+    <string name="set_complete">CLOSE &amp; SET DAY COMPLETED</string>
+    <string name="set_default">SET TO DEFAULT</string>
+    <string name="set_not_complete">CLOSE WITHOUT COMPLETING THE DAY</string>
+    <string name="sets">SETS</string>
+    <string name="settings">SETTINGS</string>
+    <string name="settings_advance">Advance to the next exercise when recommended number of sets completed.</string>
+    <string name="settings_awake">Prevent application from going to sleep mode when on Workout screen.</string>
+    <string name="settings_sound">Play sound on time up.</string>
+    <string name="settings_timer">Rest interval between sets (secs)</string>
+    <string name="settings_timer_start">Start Rest timer on log save</string>
+    <string name="show_shed">Show program schedule</string>
+    <string name="start">START</string>
+    <string name="status_update">Status update message</string>
+    <string name="stop">STOP</string>
+    <string name="str_type">TYPE</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted">Update successfully posted</string>
+    <string name="successfully_posted_post">Successfully posted \'%1$s\'.\nPost ID: %2$s</string>
+    <string name="support_email">apps@olmatech.com</string>
+    <string name="time">TIME</string>
+    <string name="timer">timer</string>
+    <string name="title_all">COMPLETE PTOGRAM</string>
+    <string name="title_cardio_zones">:(age %d)</string>
+    <string name="title_cardiohr">:(age %1$d, resting heart rate %2$d)</string>
+    <string name="title_endur">STRENGTH / ENDURANCE WORKOUTS</string>
+    <string name="title_generic">WORKOUTS</string>
+    <string name="title_mass">MASS / STRENGTH WORKOUTS</string>
+    <string name="title_tact">TACTICAL WORKOUTS</string>
+    <string name="unable_validate">Unable to validate license. Check to see if a network connection is available. Please reinstall application if problem persists.</string>
+    <string name="unit_convertx_title">WEIGHT / DISTANCE CONVERTER</string>
+    <string name="units">UNITS</string>
+    <string name="unlicensed_dialog_body">This application is not licensed. Please purchase it from Android Market.</string>
+    <string name="unlicensed_dialog_retry_body">Unable to validate license. Check to see if a network connection is available.</string>
+    <string name="unlicensed_dialog_title">Application not licensed</string>
+    <string name="update_msg">Status update posted from Commando Fit app.</string>
+    <string name="use_no_lisence">Use without license this time</string>
+    <string name="user_name">NAME</string>
+    <string name="view">VIEW</string>
+    <string name="weight">WEIGHT</string>
+    <string name="weight_increment">WEIGHT INCREMENT:</string>
+    <string name="weight_wheel_display">WEIGHT WHEEL DISPLAY</string>
+    <string name="workout">Workout</string>
+    <string name="yes">YES</string>
+    <string name="you_picked">You picked:</string>
+    <style name="Animations" parent="@android:Animation"/>
+    <style name="Animations.Dissapear">
+        <item name="android:windowEnterAnimation">@anim/appear</item>
+        <item name="android:windowExitAnimation">@anim/dissapear</item> 
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    <!--    <item name="android:spinnerStyle">@style/ot_spinner</item>   --> 
+    </style>
+    <style name="ListButtonText"> 
+		<item name="android:textSize">16sp</item>  
+		<item name="android:textColor">#000</item>	
+		<item name="android:textStyle">bold</item>  
+		<item name="android:gravity">center_horizontal|center_vertical</item>		
+	</style>
+    <style name="ListButtonTextTab"> 
+		<item name="android:textSize">20sp</item>  
+		<item name="android:textColor">#000</item>	
+		<item name="android:textStyle">bold</item>  
+		<item name="android:gravity">center_horizontal|center_vertical</item>		
+	</style>
+    <style name="MenuText"> 
+		<item name="android:textSize">16sp</item>  
+		<item name="android:textColor">#999999</item>
+		<item name="android:textStyle">bold</item>  	
+		<item name="android:gravity">center_horizontal|top</item>		
+	</style>
+    <style name="NoTitleDialog" parent="android:style/Theme.Dialog">
+    	<item name="android:windowNoTitle">true</item>
+    	<item name="android:windowBackground">@drawable/bg_dlg</item>
+	</style>
+    <style name="Theme.BlueWindow" parent="android:Theme">              
+        <item name="android:windowNoTitle">true</item>      
+     <!--      <item name="android:spinnerStyle">@style/ot_spinner</item>  -->
+ 		<item name="android:windowAnimationStyle">@style/Animations.Dissapear</item> 
+    </style>
+    <style name="Theme.Transparent" parent="android:Theme">
+	    <item name="android:windowIsTranslucent">true</item>
+	    <item name="android:windowBackground">@android:color/transparent</item>
+	    <item name="android:windowContentOverlay">@null</item>
+	    <item name="android:windowNoTitle">true</item>
+	    <item name="android:windowIsFloating">true</item>
+	    <item name="android:backgroundDimEnabled">false</item>
+	  </style>
+    <style name="activityBg">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+   <!--      <item name="android:background">@drawable/screen</item>    insert activity backgr -->    
+    </style>
+    <style name="blueButton">
+        <item name="android:layout_width">match_parent</item>
+      	<item name="android:layout_height">wrap_content</item>
+      	<item name="android:paddingTop">6dp</item>
+      	<item name="android:paddingBottom">6dp</item>
+      	<item name="android:paddingLeft">20dp</item>
+      	<item name="android:paddingRight">20dp</item>
+      	<item name="android:gravity">center_horizontal|center_vertical</item>
+      	<item name="android:background">@drawable/blue_but_selector</item>
+      	<item name="android:layout_marginTop">20dp</item>
+      	<item name="android:layout_marginLeft">@dimen/button_lr_margin</item>
+      	<item name="android:layout_marginRight">@dimen/button_lr_margin</item>
+      	<item name="android:textAppearance">@style/ListButtonText</item>        
+    </style>
+    <style name="blueButtonGeneric">
+        <item name="android:paddingTop">6dp</item>
+      	<item name="android:paddingBottom">6dp</item>
+      	<item name="android:paddingLeft">6dp</item>
+      	<item name="android:paddingRight">6dp</item>
+      	<item name="android:gravity">center_horizontal|center_vertical</item>
+      	<item name="android:background">@drawable/blue_but_selector</item>      	
+      	<item name="android:textAppearance">@style/ListButtonText</item>        
+    </style>
+    <style name="bodyText"> 
+		<item name="android:textSize">14sp</item>  
+		<item name="android:textColor">@color/txt_light</item>	
+		<item name="android:textStyle">normal</item>  
+		<item name="android:gravity">left|top</item>		
+	</style>
+    <style name="bottomBar">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_marginLeft">20dp</item>
+	    <item name="android:layout_marginRight">20dp</item>
+	    <item name="android:layout_alignParentBottom">true</item>
+	</style>
+    <style name="calDayName"> 
+		<item name="android:textSize">12sp</item>  
+		<item name="android:textColor">@color/txt_dark</item>	
+		<item name="android:textStyle">bold</item>  
+		<item name="android:gravity">center_horizontal|center_vertical</item>		
+	</style>
+    <style name="calendarDayName">
+	    <item name="android:layout_width">match_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	   <item name="android:background">@drawable/bg_calendar_day</item>
+	    <item name="android:textAppearance">@style/calDayName</item>
+	    <item name="android:layout_alignParentTop">true</item>
+	    <item name="android:layout_centerHorizontal">true</item>
+	    <item name="android:gravity">center_vertical|center_horizontal</item>
+	</style>
+    <style name="cardioImgButton">
+	    <item name="android:layout_width">@dimen/cardio_eq_img</item>  
+	     <item name="android:layout_height">@dimen/cardio_eq_img</item> 
+	     <item name="android:layout_weight">0.3</item> 
+	     <item name="android:adjustViewBounds">true</item> 
+	     <item name="android:scaleType">fitCenter</item>  	    
+	</style>
+    <style name="cardioImgButtonTab">
+	    <item name="android:layout_width">@dimen/cardio_eq_img_tab</item>  
+	     <item name="android:layout_height">@dimen/cardio_eq_img_tab</item> 
+	     <item name="android:layout_weight">0.3</item> 
+	     <item name="android:adjustViewBounds">true</item> 
+	     <item name="android:scaleType">fitCenter</item>  	    
+	</style>
+    <style name="cardioZone">
+	     <item name="android:layout_height">wrap_content</item> 	 
+	    <item name="android:layout_width">match_parent</item>  
+	     <item name="android:layout_centerHorizontal">true</item>  
+	     <item name="android:gravity">center_horizontal</item>  
+	     <item name="android:padding">4dp</item>  	     
+	     <item name="android:textAppearance">@style/titleTextDark</item>  	   
+	</style>
+    <style name="checkBx">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>       
+        <item name="android:textAppearance">@style/formText</item>
+        <item name="android:textColor">@color/txt_light</item>
+        <item name="android:textSize">@dimen/form_txt</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="closeButton">	   
+	     <item name="android:layout_width">20dp</item>  
+	     <item name="android:layout_height">20dp</item>  
+	     <item name="android:layout_marginTop">6dp</item>  
+	     <item name="android:layout_marginLeft">6dp</item>  
+	     <item name="android:layout_alignParentTop">true</item>  
+	     <item name="android:layout_alignParentRight">true</item>  
+	     <item name="android:adjustViewBounds">true</item>
+	     <item name="android:scaleType">fitXY</item>
+	      <item name="android:src">@drawable/close_but</item> 
+	      <item name="android:onClick">onButtonClick</item>
+	</style>
+    <style name="contMenuButton">
+	    <item name="android:layout_height">wrap_content</item> 
+	    <item name="android:layout_width">wrap_content</item> 	    
+	     <item name="android:background">@drawable/cont_menu_but_selector</item>
+	    <item name="android:layout_marginBottom">4dip</item>	   
+	    <item name="android:paddingBottom">8dip</item>
+	    <item name="android:paddingLeft">20dip</item>
+	    <item name="android:paddingRight">20dip</item>
+	    <item name="android:paddingTop">8dip</item>
+	    <item name="android:textAppearance">@style/contentButtonText</item>
+	</style>
+    <style name="contentButtonText"> 
+		<item name="android:textSize">16sp</item>  
+		<item name="android:textColor">@color/txt_light</item>	
+		<item name="android:textStyle">bold</item> 		
+		<item name="android:gravity">center_horizontal|center_vertical</item>		
+	</style>
+    <style name="ctrlButton">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:minWidth">100dp</item>     
+	     <item name="android:minHeight">60dp</item>	    
+	    <item name="android:layout_marginLeft">10dp</item>
+	    <item name="android:layout_marginRight">10dp</item>
+	    <item name="android:layout_marginTop">2dp</item>
+	    <item name="android:layout_marginBottom">2dp</item>
+	    <item name="android:textAppearance">@style/timerText</item>
+	    <item name="android:background">@drawable/blue_but_selector</item>	  
+	</style>
+    <style name="dlgButton">
+	    <item name="android:layout_height">wrap_content</item> 
+	    <item name="android:layout_width">fill_parent</item>   
+	    <item name="android:textAppearance">@style/ListButtonText</item>
+	    <item name="android:background">@drawable/but_list_selector</item>
+	    <item name="android:layout_marginBottom">20dip</item>
+	    <item name="android:layout_marginLeft">20dip</item>
+	    <item name="android:layout_marginRight">20dip</item>
+	    <item name="android:paddingBottom">10dip</item>
+	    <item name="android:paddingLeft">20dip</item>
+	    <item name="android:paddingRight">20dip</item>
+	    <item name="android:paddingTop">10dip</item>
+	</style>
+    <style name="dlgContainer">
+	    <item name="android:layout_width">match_parent</item>  
+	     <item name="android:layout_height">match_parent</item>  
+	     <item name="android:paddingTop">10dp</item>
+	     <item name="android:paddingLeft">10dp</item>
+	     <item name="android:paddingRight">10dp</item>
+	     <item name="android:paddingBottom">20dp</item>
+	     <item name="android:scrollbars">vertical</item>	   
+	</style>
+    <style name="dlgMenuTitle">
+	     <item name="android:layout_width">match_parent</item>  
+	     <item name="android:layout_height">wrap_content</item>  
+	     <item name="android:layout_alignParentTop">true</item>  
+	     <item name="android:layout_marginBottom">@dimen/margin_top_bot</item> 
+	     <item name="android:layout_marginTop">@dimen/margin_top_bot</item> 
+	     <item name="android:gravity">center_horizontal</item> 	     
+	     <item name="android:textAppearance">@style/formTitleText</item> 	   
+	</style>
+    <style name="dlgTitle">
+	     <item name="android:layout_width">match_parent</item>  
+	     <item name="android:layout_height">wrap_content</item>  
+	     <item name="android:layout_alignParentTop">true</item>  
+	     <item name="android:layout_marginBottom">@dimen/margin_top_bot</item> 
+	     <item name="android:layout_marginTop">@dimen/margin_top_bot</item> 
+	     <item name="android:gravity">center_horizontal</item> 
+	     <item name="android:paddingRight">20dp</item> 
+	     <item name="android:paddingLeft">20dp</item> 
+	     <item name="android:textAppearance">@style/formTitleText</item> 	   
+	</style>
+    <style name="formEdit">
+       <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical|left</item>       
+        <item name="android:textAppearance">@style/formEditText</item>     
+        <item name="android:background">@drawable/form_edit_bg</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="formEditText"> 
+		<item name="android:textSize">@dimen/form_txt</item>  
+		<item name="android:textColor">@color/txt_dark</item>	
+		<item name="android:textStyle">bold</item>  
+		<item name="android:gravity">left|center_vertical</item>		
+	</style>
+    <style name="formLbl">
+       <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>       
+        <item name="android:textAppearance">@style/formText</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+    <style name="formLblCenter">
+       <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>       
+        <item name="android:textAppearance">@style/formText</item>        
+    </style>
+    <style name="formText"> 
+		<item name="android:textSize">@dimen/form_txt</item>  
+		<item name="android:textColor">@color/txt_light</item>	
+		<item name="android:textStyle">bold</item>  
+		<item name="android:gravity">center_horizontal|center_vertical</item>		
+	</style>
+    <style name="formTitleText"> 
+		<item name="android:textSize">16sp</item>  
+		<item name="android:textColor">@color/txt_light</item>	
+		<item name="android:textStyle">bold</item>  
+		<item name="android:gravity">center_horizontal|center_vertical</item>		
+	</style>
+    <style name="helpButton">
+	     <item name="android:layout_width">20dp</item>  
+	     <item name="android:layout_height">20dp</item>  
+	     <item name="android:layout_marginTop">6dp</item>  
+	     <item name="android:layout_marginLeft">6dp</item>  
+	     <item name="android:layout_alignParentTop">true</item>  
+	     <item name="android:layout_alignParentLeft">true</item>  
+	     <item name="android:adjustViewBounds">true</item>
+	     <item name="android:scaleType">fitXY</item>	
+	     <item name="android:src">@drawable/help_sub</item>  
+	     <item name="android:onClick">onHelpClick</item>  
+	</style>
+    <style name="listExLabelText"> 
+		<item name="android:textSize">@dimen/list_wk_txt_sz</item>  
+		<item name="android:textStyle">bold</item>  
+		<item name="android:textColor">@color/txt_dark</item>	
+		<item name="android:gravity">left|top</item>
+	</style>
+    <style name="listExLabelTextLight"> 
+		<item name="android:textSize">@dimen/list_wk_txt_sz</item>  
+		<item name="android:textStyle">bold</item>  
+		<item name="android:textColor">@color/txt_light</item>	
+		<item name="android:gravity">left|top</item>
+	</style>
+    <style name="listStartButton">
+	    <item name="android:layout_height">wrap_content</item> 
+	    <item name="android:layout_width">wrap_content</item>   	   
+	    <item name="android:textAppearance">@style/mainButtonText</item>
+	     <item name="android:background">#CCCCCC</item>
+	    <item name="android:layout_marginBottom">6dp</item>	   
+	    <item name="android:paddingBottom">6dp</item>
+	    <item name="android:paddingLeft">6dp</item>
+	    <item name="android:paddingRight">6dp</item>
+	    <item name="android:paddingTop">6dp</item>
+	</style>
+    <style name="listWkLabelText"> 
+		<item name="android:textSize">@dimen/list_wk_txt_sz</item>  
+		<item name="android:textStyle">bold</item>  
+		<item name="android:textColor">@color/txt_dark</item>	
+		<item name="android:gravity">center_horizontal|center_vertical</item>
+	</style>
+    <style name="logListStyle">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:cacheColorHint">#00000000</item>
+	    <item name="android:background">#FFFFFF</item>
+	    <item name="android:divider">#CCC</item>
+	    <item name="android:dividerHeight">1dip</item>	    
+	    <item name="android:listSelector">#97B3D1</item>	   
+	    <item name="android:fadeScrollbars">false</item>
+	    <item name="android:scrollbarThumbVertical">@drawable/list_scroll</item>
+	    <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+	    <item name="android:scrollbarStyle">insideOverlay</item>
+	</style>
+    <style name="logListTitles">
+	    <item name="android:layout_width">match_parent</item>
+	    <item name="android:layout_height">wrap_content</item>	    
+	    <item name="android:background">#FFFFFF</item>
+	    <item name="android:paddingLeft">10dp</item>	  
+	</style>
+    <style name="logTextStyle">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textSize">14sp</item>
+	    <item name="android:textColor">@color/txt_dark</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:minWidth">60dp</item>
+	    <item name="android:gravity">right|center_vertical</item>
+	    <item name="android:paddingTop">4dp</item>
+	</style>
+    <style name="mainButton">
+	    <item name="android:layout_height">wrap_content</item> 
+	    <item name="android:layout_width">wrap_content</item>   	   
+	    <item name="android:textAppearance">@style/mainButtonText</item>
+	     <item name="android:background">@drawable/main_but_selector</item>
+	    <item name="android:layout_marginBottom">10dip</item>	   
+	    <item name="android:paddingBottom">10dip</item>
+	    <item name="android:paddingLeft">20dip</item>
+	    <item name="android:paddingRight">20dip</item>
+	    <item name="android:paddingTop">10dip</item>
+	</style>
+    <style name="mainButtonText"> 
+		<item name="android:textSize">16sp</item>  
+		<item name="android:textColor">@color/txt_dark</item>	
+		<item name="android:textStyle">bold</item> 
+		<item name="android:lines">1</item>
+		<item name="android:maxLines">1</item> 
+		<item name="android:gravity">center_horizontal|center_vertical</item>		
+	</style>
+    <style name="mainButtonTextTab"> 
+		<item name="android:textSize">20sp</item>  
+		<item name="android:textColor">@color/txt_dark</item>	
+		<item name="android:textStyle">bold</item> 
+		<item name="android:lines">1</item>
+		<item name="android:maxLines">1</item> 
+		<item name="android:gravity">center_horizontal|center_vertical</item>		
+	</style>
+    <style name="mainButtonTop">
+	    <item name="android:layout_height">wrap_content</item> 
+	    <item name="android:layout_width">wrap_content</item>  
+	    <item name="android:layout_alignParentTop">true</item> 
+	    <item name="android:layout_alignParentLeft">true</item>
+	    <item name="android:textAppearance">@style/mainButtonText</item>
+	    <item name="android:background">@drawable/main_top_but_selector</item>	    
+	    <item name="android:paddingBottom">10dip</item>
+	    <item name="android:paddingLeft">20dip</item>
+	    <item name="android:paddingRight">20dip</item>
+	    <item name="android:paddingTop">10dip</item> 
+	</style>
+    <style name="menuButton">
+	        <item name="android:layout_width">match_parent</item>
+	   		 <item name="android:layout_height">wrap_content</item>
+	   		 <item name="android:background">@drawable/blue_but_selector</item>
+	   		 <item name="android:textAppearance">@style/ListButtonText</item>    
+	   		 <item name="android:layout_marginTop">2dp</item>
+	   		 <item name="android:layout_marginBottom">2dp</item>
+	   		 <item name="android:paddingRight">6dp</item>
+	   </style>
+    <style name="menuButtonGeneric">	        
+	   		 <item name="android:layout_height">wrap_content</item>
+	   		 <item name="android:background">@drawable/blue_but_selector</item>
+	   		 <item name="android:textAppearance">@style/ListButtonText</item>    
+	   		 <item name="android:layout_marginTop">2dp</item>
+	   		 <item name="android:layout_marginBottom">2dp</item>	
+	   		 <item name="android:paddingRight">6dp</item>   		 
+	   </style>
+    <style name="numberPickerButtonStyle">
+	    <item name="android:layout_width">match_parent</item>  
+	     <item name="android:layout_height">wrap_content</item>	  
+	     <item name="android:minHeight">36dp</item>
+	     <item name="android:gravity">center_vertical|center_horizontal</item> 	
+		 <item name="android:maxLines">1</item>    
+	     <item name="android:textAppearance">@style/timerText</item> 
+	     <item name="android:background">@drawable/num_picker_but_selector</item>	
+	     <item name="android:layout_margin">4dp</item>	 
+	</style>
+    <style name="numberPickerButtonStyleTab">
+	    <item name="android:layout_width">match_parent</item>  
+	     <item name="android:layout_height">60dp</item>	       
+	     <item name="android:gravity">center_vertical|center_horizontal</item> 	
+		 <item name="android:maxLines">1</item>    
+	     <item name="android:textAppearance">@style/timerText</item> 
+	     <item name="android:background">@drawable/num_picker_but_selector</item>	
+	     <item name="android:layout_margin">4dp</item>	 
+	</style>
+    <style name="numberPickerText"> 
+		<item name="android:textSize">18sp</item>  
+		<item name="android:textColor">@color/txt_dark</item>	
+		<item name="android:textStyle">bold</item>  
+		<item name="android:gravity">center_horizontal|center_vertical</item>		
+	</style>
+    <style name="numberPickerTextStyle">
+	    <item name="android:layout_width">match_parent</item>  
+	     <item name="android:layout_height">wrap_content</item>  	   
+	     <item name="android:minWidth">60dp</item>
+	     <item name="android:gravity">center_vertical|center_horizontal</item> 
+	     <item name="android:paddingLeft">6dp</item>
+	     <item name="android:paddingRight">6dp</item>
+	     <item name="android:paddingTop">2dp</item>
+	     <item name="android:paddingBottom">2dp</item>t
+		 <item name="android:maxLines">1</item>    
+		 <item name="android:background">@drawable/bg_rec_white_wborder</item>
+	     <item name="android:textAppearance">@style/numberPickerText</item> 	 
+	</style>
+    <style name="numberPickerTextStyleTab">
+	    <item name="android:layout_width">match_parent</item>  
+	     <item name="android:layout_height">wrap_content</item>  	   
+	     <item name="android:minWidth">60dp</item>
+	     <item name="android:gravity">center_vertical|center_horizontal</item> 
+	     <item name="android:paddingLeft">6dp</item>
+	     <item name="android:paddingRight">6dp</item>
+	     <item name="android:paddingTop">2dp</item>
+	     <item name="android:paddingBottom">2dp</item>t
+		 <item name="android:maxLines">1</item>    
+		 <item name="android:background">@drawable/bg_rec_white_wborder</item>
+	     <item name="android:textAppearance">@style/numberPickerTextTab</item> 	 
+	</style>
+    <style name="numberPickerTextTab"> 
+		<item name="android:textSize">28sp</item>  
+		<item name="android:textColor">@color/txt_dark</item>	
+		<item name="android:textStyle">bold</item>  
+		<item name="android:gravity">center_horizontal|center_vertical</item>		
+	</style>
+    <style name="radioBut">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical|start</item>       
+        <item name="android:textAppearance">@style/formText</item>
+        <item name="android:textColor">@color/txt_light</item>
+        <item name="android:textSize">@dimen/form_txt</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="tbLabel">		
+	    <item name="android:layout_height">wrap_content</item> 	 
+	    <item name="android:layout_width">0dp</item>    
+	    <item name="android:singleLine">true</item>
+	    <item name="android:padding">6dp</item>	    
+	     <item name="android:ellipsize">none</item>
+	     <item name="android:lines">1</item>	     
+	     <item name="android:layout_marginLeft">1dp</item>
+	     <item name="android:layout_marginRight">1dp</item>	     
+	     <item name="android:background">@color/bgcolor</item> 
+	</style>
+    <style name="tbrow">    
+        <item name="android:background">@color/txt_light</item> 
+        <item name="android:layout_width">match_parent</item>
+      	<item name="android:layout_height">wrap_content</item>
+      	<item name="android:orientation">horizontal</item>
+      	<item name="android:padding">1dp</item>
+      	<item name="android:weightSum">1</item>
+    </style>
+    <style name="timerButtonStyle">
+	    <item name="android:layout_width">wrap_content</item>  
+	     <item name="android:layout_height">wrap_content</item>  	
+	     <item name="android:minWidth">60dp</item>     
+	     <item name="android:minHeight">60dp</item>	    
+	     <item name="android:gravity">center_vertical|center_horizontal</item> 	
+		 <item name="android:maxLines">1</item>    
+	     <item name="android:textAppearance">@style/timerText</item> 
+	     <item name="android:background">@drawable/num_picker_but_selector</item>	
+	     <item name="android:layout_margin">2dp</item>	 
+	</style>
+    <style name="timerButtonStyleTab">
+	    <item name="android:layout_width">wrap_content</item>  
+	     <item name="android:layout_height">wrap_content</item>  	
+	     <item name="android:minWidth">100dp</item>     
+	     <item name="android:minHeight">60dp</item>	    
+	     <item name="android:gravity">center_vertical|center_horizontal</item> 	
+		 <item name="android:maxLines">1</item>    
+	     <item name="android:textAppearance">@style/timerText</item> 
+	     <item name="android:background">@drawable/num_picker_but_selector</item>	
+	     <item name="android:layout_margin">2dp</item>	 
+	</style>
+    <style name="timerText"> 
+		<item name="android:textSize">24sp</item>  
+		<item name="android:textColor">@color/txt_dark</item>	
+		<item name="android:textStyle">bold</item>  
+		<item name="android:gravity">center_horizontal|center_vertical</item>		
+	</style>
+    <style name="timerTextStyle">
+	    <item name="android:layout_width">wrap_content</item>  
+	     <item name="android:layout_height">wrap_content</item> 	        
+	     <item name="android:minWidth">70dp</item>
+	     <item name="android:minHeight">50dp</item>
+	     <item name="android:gravity">center_vertical|center_horizontal</item> 
+	     <item name="android:paddingLeft">6dp</item>
+	     <item name="android:paddingRight">6dp</item>
+	     <item name="android:paddingTop">2dp</item>
+	     <item name="android:paddingBottom">2dp</item>t
+		 <item name="android:maxLines">1</item>    		 
+	     <item name="android:textAppearance">@style/timerText</item> 	 
+	</style>
+    <style name="timerTextStyleTab">
+	    <item name="android:layout_width">wrap_content</item>  
+	     <item name="android:layout_height">wrap_content</item> 	        
+	     <item name="android:minWidth">100dp</item>
+	     <item name="android:minHeight">60dp</item>
+	     <item name="android:gravity">center_vertical|center_horizontal</item> 
+	     <item name="android:paddingLeft">6dp</item>
+	     <item name="android:paddingRight">6dp</item>
+	     <item name="android:paddingTop">2dp</item>
+	     <item name="android:paddingBottom">2dp</item>
+		 <item name="android:maxLines">1</item>    		 
+	     <item name="android:textAppearance">@style/timerText</item> 	 
+	</style>
+    <style name="timerTextTab"> 
+		<item name="android:textSize">28sp</item>  
+		<item name="android:textColor">@color/txt_dark</item>	
+		<item name="android:textStyle">bold</item>  
+		<item name="android:gravity">center_horizontal|center_vertical</item>		
+	</style>
+    <style name="titleText"> 
+		<item name="android:textSize">16sp</item>  
+		<item name="android:textColor">@color/txt_light</item>	
+		<item name="android:textStyle">bold</item>	
+	</style>
+    <style name="titleTextDark"> 
+		<item name="android:textSize">16sp</item>  
+		<item name="android:textColor">@color/txt_dark</item>	
+		<item name="android:textStyle">bold</item>	
+	</style>
+    <style name="titleTextGreen"> 
+		<item name="android:textSize">16sp</item>  
+		<item name="android:textColor">@color/col_green</item>	
+		<item name="android:textStyle">bold</item>	
+	</style>
+    <style name="wheelTitle">
+	    <item name="android:layout_width">0dp</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_gravity">center_horizontal</item>
+	    <item name="android:textAppearance">@style/wheelTitleText</item>
+	</style>
+    <style name="wheelTitleText"> 
+		<item name="android:textSize">@dimen/wheel_title</item>  
+		<item name="android:textColor">@color/txt_light</item>	
+		<item name="android:singleLine">true</item>
+		<item name="android:textStyle">bold</item>  
+		<item name="android:gravity">center</item>		
+	</style>
+    <style name="whiteSmallLogText"> 
+		<item name="android:textSize">12sp</item>  
+		<item name="android:textColor">@color/txt_light</item>	
+		<item name="android:textStyle">bold</item>  
+		<item name="android:gravity">center_horizontal|center_vertical</item>		
+	</style>
+    <style name="whiteSmallLogTextTab"> 
+		<item name="android:textSize">20sp</item>  
+		<item name="android:textColor">@color/txt_light</item>	
+		<item name="android:textStyle">bold</item>  
+		<item name="android:gravity">center_horizontal|center_vertical</item>		
+	</style>
+</resources>

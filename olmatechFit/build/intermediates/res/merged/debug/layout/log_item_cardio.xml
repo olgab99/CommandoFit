@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/logListTitles">
+    <TextView android:id="@+id/txt_cardio_dist"
+     style="@style/logTextStyle"
+     android:layout_alignParentLeft="true"   
+     android:text="20" />
+   <TextView android:id="@+id/txt_cardio_units"
+     style="@style/logTextStyle"  
+     android:layout_toRightOf="@+id/txt_cardio_dist"   
+     android:text="@string/km" />  
+  <ImageView android:id="@+id/img_cardio"
+     android:layout_width="wrap_content"
+     android:layout_toRightOf="@+id/txt_cardio_units"
+     android:layout_height="30dp"     
+     android:adjustViewBounds="true"
+     android:scaleType="fitCenter"
+     android:layout_gravity="top|center_horizontal"
+     android:src="@drawable/cardio1" />
+  <TextView android:id="@+id/txt_cardio_time"
+     style="@style/logTextStyle"   
+     android:layout_toRightOf="@+id/img_cardio"
+     android:text="20" />
+</RelativeLayout>

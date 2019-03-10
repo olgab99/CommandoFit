@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_cont"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor" >       
+ <!-- title -->  
+<!-- Main title -->
+ <ImageView
+         android:id="@+id/title_icon"
+         android:layout_width="30dp"
+         android:layout_height="30dp"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginLeft="4dp"
+         android:layout_marginTop="4dp"         
+         android:adjustViewBounds="true"         
+         android:scaleType="fitXY"        
+         android:src="@drawable/tactical_gray" />   
+     <TextView
+         android:id="@+id/txt_title"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"         
+         android:layout_toRightOf="@+id/title_icon"
+         android:layout_marginBottom="4dp"
+         android:layout_marginTop="8dp"
+         android:gravity="left|center_vertical"
+         android:text="@string/workout"
+         android:textAppearance="@style/titleText" />
+<!-- laps -->
+	<TextView android:id="@+id/title_laps"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:text="@string/laps"
+	    android:layout_below="@+id/txt_title"
+	    android:layout_alignLeft="@+id/txt_laps"
+	    android:layout_alignRight="@+id/txt_laps"	   
+	    android:textAppearance="@style/formText" />
+ 	<TextView android:id="@+id/txt_laps"
+        style="@style/timerTextStyle"	
+        android:background="@drawable/form_edit_bg"	
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title_laps"  
+        android:layout_marginLeft="20dp"           
+        android:text="0" />
+    <!--  Done button -->
+   <com.olmatech.fitness.controls.AppButton android:id="@+id/but_workout_done"
+      	android:layout_width="wrap_content"
+		android:layout_height="wrap_content"  
+		android:padding="6dp"  
+		android:background="@drawable/blue_but_selector"
+		android:textAppearance="@style/ListButtonText"
+	    android:layout_alignParentRight="true"    
+	    android:layout_marginRight="20dp"
+	    android:layout_alignTop="@+id/txt_laps"
+	   android:text="@string/done_workout" />
+	   <!-- rail -->   
+  	<View android:id="@+id/rail_left"
+  	    android:layout_width="6dp"       
+       	android:layout_height="0dp"       	
+       	android:layout_alignParentLeft="true"    
+       	android:layout_alignTop="@+id/scroll_container_ex_list"   	
+       	android:layout_alignBottom="@+id/scroll_container_ex_list"
+       	android:background="@color/dkgray" />   
+	   <!-- main view -->	
+	   <ScrollView android:id="@+id/scroll_container_ex_list"
+	           android:layout_width="match_parent"
+	           android:layout_height="wrap_content"
+	           android:layout_below="@+id/txt_laps"
+	           android:layout_above="@+id/bottomFragment"
+	           android:layout_toRightOf="@+id/rail_left"
+	           android:scrollbarStyle="insideOverlay"
+	           android:layout_marginTop="20dp" >
+	       <LinearLayout
+	           android:id="@+id/container_ex_list"
+	           android:layout_width="match_parent"
+	           android:layout_height="wrap_content"
+	           android:orientation="vertical"	           
+	           android:scrollbars="vertical" />
+	</ScrollView>
+	<fragment android:name="com.olmatech.fitness.view.BottomFragment"
+        android:id="@+id/bottomFragment"
+        style="@style/bottomBar" />       
+</RelativeLayout>

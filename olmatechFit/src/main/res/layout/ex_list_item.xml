@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/list_item_height"    
+    android:layout_marginBottom="@dimen/padding_aver"  >   
+    <!--  rail -->  
+    <View android:id="@+id/railLeft2"
+        android:layout_width="1px"
+  	    android:layout_height="match_parent"
+  	    android:layout_alignParentLeft="true"
+  	    android:background="@color/bgcolor" />
+     <View android:id="@+id/railLeft"
+        android:layout_width="@dimen/rail_width"
+  	    android:layout_height="match_parent"
+  	    android:layout_toRightOf="@+id/railLeft2"
+  	    android:background="@color/transparent" />
+     <!-- main view -->
+  <RelativeLayout  
+       android:layout_width="0dp"
+       android:layout_height="fill_parent"
+       android:layout_alignParentRight="true"
+       android:layout_toRightOf="@+id/railLeft"
+       android:background="@drawable/list_but_selector" >
+  <!-- Image -->
+  <RelativeLayout android:id="@+id/imgCont"
+        android:layout_width="wrap_content"
+  	    android:layout_height="wrap_content"
+  	    android:layout_marginLeft="@dimen/padding_aver"
+  	    android:layout_marginTop="@dimen/padding_aver"
+  	    android:layout_marginBottom="@dimen/padding_aver"
+  	    android:layout_alignParentLeft="true"
+  	    android:layout_centerVertical="true"
+  	    android:padding="4dp" 
+  	    android:background="@drawable/list_img_bg"	    
+      >  
+  <ImageView
+  	    android:id="@+id/imgList"
+  	    android:layout_width="wrap_content"
+  	    android:layout_height="wrap_content"
+  	    android:layout_centerInParent="true"  	    	    
+  	    android:adjustViewBounds="true"  	    
+  	    android:scaleType="fitXY"
+  	    android:src="@drawable/back_row_m" />
+  </RelativeLayout>  
+  <!--  Ex name -->
+  	<TextView
+  	    android:id="@+id/txtList"
+  	    android:layout_width="wrap_content"
+  	    android:layout_height="wrap_content"
+  	    style="@style/listExLabelText"
+  	    android:layout_below="@+id/txtExNumList"
+  	    android:layout_marginLeft="6dp"
+  	    android:layout_toRightOf="@+id/imgCont"
+  	    android:ellipsize="end"
+  	    android:gravity="left|top"
+  	    android:maxLines="3"
+  	    android:text="Back row" />
+  	
+  <!--  	<RelativeLayout
+  	    android:id="@+id/viewExStart"
+  	    android:layout_width="wrap_content"
+  	    android:layout_height="wrap_content"
+  	    android:layout_alignParentRight="true"
+  	    android:layout_centerVertical="true"
+  	    android:layout_toRightOf="@+id/txtList"
+  	    android:layout_marginRight="12dp"
+  	    android:gravity="right" >
+
+  	    <TextView
+	  	    android:id="@+id/txtExNumListFull"
+	  	    android:layout_width="30dp"
+	  	    android:layout_height="30dp"
+	  	    android:layout_gravity="right|center_vertical"
+	  	    android:layout_marginBottom="4dp"
+	  	    android:layout_marginTop="4dp"
+	  	    android:layout_alignParentRight="true"
+	  	    android:layout_alignParentTop="true"	  	    
+	  	    android:background="@drawable/ex_num_bg"
+	  	    android:text="22"
+	  	    android:textStyle="bold"
+	  	    android:textSize="18sp"
+	  	    android:textColor="#1A1A1A"
+	  	    android:gravity="center" />
+
+  	    <Button
+  	        android:id="@+id/butStartWorkout"
+  	        style="@style/listStartButton"
+  	        android:layout_below="@+id/txtExNumListFull"
+  	        android:layout_alignParentRight="true"
+  	        android:text="@string/start" />"
+  	</RelativeLayout> --> 
+  	
+  	<TextView
+  	    android:id="@+id/txtExNumList"
+  	    android:layout_width="30dp"
+  	    android:layout_height="30dp"
+  	    android:layout_gravity="right|top"
+  	    android:layout_marginRight="@dimen/padding_aver"
+  	    android:layout_marginTop="@dimen/padding_aver"
+  	    android:layout_alignParentRight="true"
+  	    android:layout_alignParentTop="true"  	    
+  	    android:background="@drawable/ex_num_bg"
+  	    android:text="22"
+  	    android:textStyle="bold"
+  	    android:textSize="18sp"
+  	    android:textColor="@color/txt_dark"
+  	    android:gravity="center" />
+  	
+  	<!-- Complete overlay -->
+  	<View
+		android:id="@+id/imgCompleteOverlay"		
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"		
+		android:background="@drawable/ex_complete_overlay" />
+	</RelativeLayout>
+	<!-- Tick -->
+	 <ImageView
+        android:id="@+id/imgArrow"
+  	    android:layout_width="20dp"
+  	    android:layout_height="20dp"
+  	    android:layout_alignParentLeft="true"
+  	    android:layout_centerVertical="true" 	    
+  	    android:adjustViewBounds="true"  	    
+  	    android:scaleType="fitXY"
+  	    android:src="@drawable/arrow_right" />
+</RelativeLayout >

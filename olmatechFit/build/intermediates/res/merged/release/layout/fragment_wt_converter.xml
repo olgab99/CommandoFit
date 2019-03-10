@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarAlwaysDrawVerticalTrack="true" >
+<RelativeLayout style="@style/dlgContainer" >    
+	<TextView android:id="@+id/txt_title"
+	     style="@style/dlgTitle"
+	     android:text="@string/weight"
+	     />
+	 <EditText
+           android:id="@+id/edit_input"
+           style="@style/formEdit"       
+            android:layout_alignParentLeft="true"   
+            android:layout_below="@+id/txt_title"
+           android:layout_marginBottom="10dp"
+           android:inputType="numberDecimal"
+           android:digits="0123456789." />  
+
+	<ImageView
+	    android:id="@+id/circle_mark"
+	    android:layout_width="10dp"
+	    android:layout_height="10dp"
+	    android:layout_alignBottom="@+id/edit_input"
+	    android:layout_alignTop="@+id/edit_input"
+	    android:layout_centerHorizontal="true"
+	    android:layout_gravity="center_vertical|center_horizontal"
+	    android:adjustViewBounds="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:scaleType="fitCenter"
+	    android:src="@drawable/circle" />
+<TextView
+          android:id="@+id/txt_result"
+          style="@style/formEdit"
+          android:layout_alignBottom="@+id/edit_input"
+          android:layout_alignParentRight="true"
+          android:layout_alignTop="@+id/edit_input" />
+        <!--  Radio list units weight -->
+
+	<RadioGroup
+	    android:id="@+id/sel_radios"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/edit_input"
+	    android:layout_marginLeft="20dp"
+	    android:gravity="center_horizontal"
+	    android:orientation="vertical" >
+
+    	<RadioButton
+    	    android:id="@+id/radio1"
+    	    style="@style/radioBut"
+    	    android:layout_gravity="left|center_vertical"
+    	    android:checked="true"
+    	    android:text="@string/lbs"
+    	    android:textAllCaps="true" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            style="@style/radioBut"
+            android:layout_gravity="left|center_vertical"                  
+            android:text="@string/kg"
+            android:textAllCaps="true" />
+   </RadioGroup>
+   
+	<com.olmatech.fitness.controls.AppButton
+	    android:id="@+id/but_calc"
+	    style="@style/blueButtonGeneric"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignTop="@+id/sel_radios"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginTop="20dp"
+	    android:layout_toRightOf="@+id/sel_radios"
+	    android:onClick="onButtonClick"
+	    android:text="@string/but_calculate"
+	    android:textAllCaps="true" />
+	
+<!--  Distance -->
+</RelativeLayout>    
+</ScrollView>

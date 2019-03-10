@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <!-- Top part -->      
+     <!--  time input -->  
+	<TextView android:id="@+id/title_time"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_alignParentTop="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:text="@string/time"
+	    android:textAppearance="@style/formText" />	
+	<LinearLayout android:id="@+id/timer" 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"	    
+	    android:layout_centerHorizontal="true"
+	    android:layout_below="@+id/title_time"
+	    android:background="@drawable/bg_rec_grey_rounded"
+	    android:orientation="horizontal" >
+	   <Button android:id="@+id/butPlus"
+	        style="@style/timerButtonStyle"
+	        android:text="+" /> 	   
+	    <TextView
+	        android:id="@+id/txtTime"
+	        style="@style/timerTextStyle"	 
+	        android:layout_gravity="center_vertical|center_horizontal"
+	        android:background="@drawable/bg_rec_white_wborder"             
+	        android:text="00:00:00" />
+	    <Button android:id="@+id/butMinus"
+	        style="@style/timerButtonStyle"
+	        android:text="-" /> 
+	</LinearLayout>
+	<ProgressBar
+	    android:id="@+id/progrBarCardio"
+	    style="?android:attr/progressBarStyleHorizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:minHeight="50dp"
+	    android:maxHeight="120dip"
+	    android:layout_below="@+id/timer"
+	    android:layout_above="@+id/but_descript_cardio"	    
+	    android:layout_marginLeft="40dp"
+	    android:layout_marginRight="40dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginBottom="20dp"
+	    android:indeterminate="false"	    
+	    android:progress="50"
+	    android:progressDrawable="@drawable/progress_bar" />
+<!--  hr target msg  -->
+	<TextView android:id="@+id/hr_msg"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"	       
+	     android:gravity="center_horizontal|center_vertical"
+	     android:paddingRight="4dp"
+	     android:layout_alignBottom="@+id/progrBarCardio"
+	      android:layout_alignTop="@+id/progrBarCardio"
+	     android:layout_alignLeft="@+id/progrBarCardio"
+	     android:layout_alignRight="@+id/progrBarCardio"
+	     android:text="Heart Rate 118 - 143 bpm"
+	     android:textSize="14sp" android:textColor="#999999" android:textStyle="bold" />  	
+	<!--  img on top of progress -->
+	<ImageView
+	    android:id="@+id/cardio_img"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBottom="@+id/progrBarCardio"
+	    android:layout_alignTop="@+id/progrBarCardio"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginBottom="5dp"
+	    android:layout_marginTop="5dp"
+	    android:adjustViewBounds="true"
+	    android:scaleType="fitCenter"
+	    android:src="@drawable/cardio1" />	
+<!--  end top part -->
+   <!--  Completed image -->
+    <ImageView android:id="@+id/img_ex_done_cardio"
+         android:layout_width="60dp"
+         android:layout_height="60dp"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginLeft="4dp"
+         android:layout_marginTop="4dp"
+         android:scaleType="fitXY"
+         android:adjustViewBounds="true"
+         android:src="@drawable/tic" />
+ <!-- Navigation arrows -->
+ <ImageView android:id="@+id/img_arr_left"
+       android:layout_width="20dp"
+       android:layout_height="62dp"
+       android:adjustViewBounds="true"
+       android:layout_alignParentLeft="true"
+       android:layout_centerVertical="true"
+       android:scaleType="fitXY"
+       android:src="@drawable/arrow_l"  />
+ <ImageView android:id="@+id/img_arr_right"
+       android:layout_width="20dp"
+       android:layout_height="62dp"
+       android:adjustViewBounds="true"
+       android:layout_alignParentRight="true"
+       android:layout_centerVertical="true"
+       android:scaleType="fitXY"
+       android:src="@drawable/arrow_r"  />
+<!-- buttons -->
+<Button android:id="@+id/butStart"
+    style="@style/ctrlButton"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentBottom="true"
+    android:text="@string/start" />
+<Button android:id="@+id/butStop"
+    style="@style/ctrlButton"
+    android:layout_toLeftOf="@+id/but_descript_cardio"
+    android:layout_alignParentBottom="true"
+    android:text="@string/done" />
+<!-- description button -->
+    <ImageView
+        android:id="@+id/but_descript_cardio"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:adjustViewBounds="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/corner_open" />
+</RelativeLayout>

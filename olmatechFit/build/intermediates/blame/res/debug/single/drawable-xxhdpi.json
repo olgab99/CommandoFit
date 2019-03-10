@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/build/intermediates/res/merged/debug/drawable-xxhdpi/help_sub.png",
+        "source": "/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/res/drawable-xxhdpi/help_sub.png"
+    },
+    {
+        "merged": "/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/build/intermediates/res/merged/debug/drawable-xxhdpi/back_dis.png",
+        "source": "/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/res/drawable-xxhdpi/back_dis.png"
+    },
+    {
+        "merged": "/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/build/intermediates/res/merged/debug/drawable-xxhdpi/back.png",
+        "source": "/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/res/drawable-xxhdpi/back.png"
+    },
+    {
+        "merged": "/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/build/intermediates/res/merged/debug/drawable-xxhdpi/menu.png",
+        "source": "/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/res/drawable-xxhdpi/menu.png"
+    },
+    {
+        "merged": "/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/build/intermediates/res/merged/debug/drawable-xxhdpi/help.png",
+        "source": "/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/res/drawable-xxhdpi/help.png"
+    },
+    {
+        "merged": "/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/build/intermediates/res/merged/debug/drawable-xxhdpi/calculator.png",
+        "source": "/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/res/drawable-xxhdpi/calculator.png"
+    },
+    {
+        "merged": "/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/build/intermediates/res/merged/debug/drawable-xxhdpi/timer.png",
+        "source": "/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/res/drawable-xxhdpi/timer.png"
+    },
+    {
+        "merged": "/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/build/intermediates/res/merged/debug/drawable-xxhdpi/save.png",
+        "source": "/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/res/drawable-xxhdpi/save.png"
+    },
+    {
+        "merged": "/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_launcher.png",
+        "source": "/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    }
+]

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/logListTitles">
+ <TextView android:id="@+id/txt_set"
+     style="@style/logTextStyle"
+     android:layout_alignParentLeft="true"
+     android:text="2" />
+ <TextView android:id="@+id/txt_reps"
+     style="@style/logTextStyle"
+     android:layout_toRightOf="@+id/txt_set"
+     android:text="12" />
+ <TextView android:id="@+id/txt_wt"
+     style="@style/logTextStyle"
+     android:layout_toRightOf="@+id/txt_reps"
+     android:text="200" />
+  <TextView android:id="@+id/txt_units"
+     style="@style/logTextStyle"
+     android:layout_toRightOf="@+id/txt_wt"
+     android:text="@string/lb" />
+</RelativeLayout>

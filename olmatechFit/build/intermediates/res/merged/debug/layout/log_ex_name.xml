@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dip"
+     android:paddingTop="10dip"
+      android:paddingLeft="10dip"
+    android:background="@drawable/bg_log_ex_name_item" >  
+ <ImageView
+     android:id="@+id/group_indicator"
+     android:layout_width="30dp"
+     android:layout_height="30dp"
+     android:layout_alignParentLeft="true"
+     android:layout_centerVertical="true"
+     android:scaleType="fitCenter"
+     android:src="@drawable/group_close" />
+
+<TextView android:id="@+id/ex_name"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_toRightOf="@+id/group_indicator"
+     android:textSize="20sp"
+     android:layout_centerVertical="true"
+     android:textColor="@color/txt_dark"
+     android:textStyle="bold"  
+     android:paddingLeft="10dp" 
+     android:text="OVERHEAD TRICEPS EXTENSION" android:gravity="left|center_vertical" />
+</RelativeLayout>

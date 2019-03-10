@@ -1,0 +1,359 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:2:1-119:12
+	package
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml
+		INJECTED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:5:5-31
+		INJECTED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml
+		INJECTED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:4:5-29
+		INJECTED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml
+		INJECTED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:12:5-14:41
+MERGED from [OlmatechFit1:licensingCommon:unspecified] /home/oborissova/AndroidStudioProjects/OlmatechFit1/licensingCommon/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
+MERGED from [OlmatechFit1:wheel:unspecified] /home/oborissova/AndroidStudioProjects/OlmatechFit1/wheel/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
+MERGED from [OlmatechFit1:loaderEx:unspecified] /home/oborissova/AndroidStudioProjects/OlmatechFit1/loaderEx/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:14:9-38
+		INJECTED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml
+		INJECTED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:13:9-35
+		INJECTED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml
+		INJECTED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:15:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:16:22-78
+application
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:17:5-118:19
+MERGED from [OlmatechFit1:wheel:unspecified] /home/oborissova/AndroidStudioProjects/OlmatechFit1/wheel/build/intermediates/bundles/default/AndroidManifest.xml:11:5-12:19
+MERGED from [OlmatechFit1:loaderEx:unspecified] /home/oborissova/AndroidStudioProjects/OlmatechFit1/loaderEx/build/intermediates/bundles/default/AndroidManifest.xml:11:5-14:19
+	android:label
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:21:9-41
+		REJECTED from [OlmatechFit1:wheel:unspecified] /home/oborissova/AndroidStudioProjects/OlmatechFit1/wheel/build/intermediates/bundles/default/AndroidManifest.xml:11:18-54
+		REJECTED from [OlmatechFit1:loaderEx:unspecified] /home/oborissova/AndroidStudioProjects/OlmatechFit1/loaderEx/build/intermediates/bundles/default/AndroidManifest.xml:13:9-41
+	xmlns:tools
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:17:18-64
+	android:allowBackup
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:19:9-35
+	android:icon
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:20:9-45
+		REJECTED from [OlmatechFit1:loaderEx:unspecified] /home/oborissova/AndroidStudioProjects/OlmatechFit1/loaderEx/build/intermediates/bundles/default/AndroidManifest.xml:12:9-38
+	android:theme
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:22:9-40
+	tools:replace
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:18:9-51
+activity#com.olmatech.fitness.ui.StartActivity
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:23:9-30:20
+	android:label
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:25:13-45
+	android:launchMode
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:25:46-76
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:24:13-45
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:26:13-29:29
+action#android.intent.action.MAIN
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:28:27-74
+activity#com.olmatech.fitness.ui.SplashActivityPhone
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:31:9-33:87
+	android:screenOrientation
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:33:47-83
+	android:label
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:33:13-45
+	android:theme
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:32:52-91
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:32:13-51
+activity#com.olmatech.fitness.ui.MainActivityPhone
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:34:9-36:86
+	android:screenOrientation
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:36:46-82
+	android:label
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:36:13-45
+	android:theme
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:35:50-89
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:35:13-49
+activity#com.olmatech.fitness.ui.FirstActivityPhone
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:37:10-39:119
+	android:screenOrientation
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:39:47-83
+	android:label
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:39:13-45
+	android:launchMode
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:39:84-115
+	android:theme
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:38:51-90
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:38:13-50
+activity#com.olmatech.fitness.ui.ExerciseActivityPhone
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:40:10-42:130
+	android:screenOrientation
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:42:47-83
+	android:label
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:42:13-45
+	android:windowSoftInputMode
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:42:85-126
+	android:theme
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:41:54-93
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:41:13-53
+activity#com.olmatech.fitness.ui.TackticalActivity
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:43:11-45:130
+	android:screenOrientation
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:45:47-83
+	android:label
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:45:13-45
+	android:windowSoftInputMode
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:45:85-126
+	android:theme
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:44:50-89
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:44:13-49
+activity#com.olmatech.fitness.ui.ExListActivity
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:46:12-48:86
+	android:screenOrientation
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:48:46-82
+	android:label
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:48:13-45
+	android:theme
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:47:47-83
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:47:13-46
+activity#com.olmatech.fitness.ui.InterviewActivity
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:49:10-51:86
+	android:screenOrientation
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:51:46-82
+	android:label
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:51:13-45
+	android:theme
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:50:50-86
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:50:13-49
+activity#com.olmatech.fitness.ui.CalcMenuActivity
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:52:10-54:86
+	android:screenOrientation
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:54:46-82
+	android:label
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:54:13-45
+	android:theme
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:53:49-85
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:53:13-48
+activity#com.olmatech.fitness.ui.MenuActivity
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:55:11-57:86
+	android:screenOrientation
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:57:46-82
+	android:label
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:57:13-45
+	android:theme
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:56:45-81
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:56:13-44
+activity#com.olmatech.fitness.ui.MaxrepActivity
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:58:10-60:86
+	android:screenOrientation
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:60:46-82
+	android:label
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:60:13-45
+	android:theme
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:59:47-83
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:59:13-46
+activity#com.olmatech.fitness.ui.HrCalculatorActivity
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:61:10-63:86
+	android:screenOrientation
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:63:46-82
+	android:label
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:63:13-45
+	android:theme
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:62:53-89
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:62:13-52
+activity#com.olmatech.fitness.ui.SettingsActivity
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:64:11-66:86
+	android:screenOrientation
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:66:46-82
+	android:label
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:66:13-45
+	android:theme
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:65:49-85
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:65:13-48
+activity#com.olmatech.fitness.ui.HelpActivity
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:67:12-69:86
+	android:screenOrientation
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:69:46-82
+	android:label
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:69:13-45
+	android:theme
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:68:45-84
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:68:13-44
+activity#com.olmatech.fitness.ui.LogListDlgActivity
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:70:11-72:86
+	android:screenOrientation
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:72:46-82
+	android:label
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:72:13-45
+	android:theme
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:71:51-87
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:71:13-50
+activity#com.olmatech.fitness.ui.CardioZonesActivity
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:73:11-75:86
+	android:screenOrientation
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:75:46-82
+	android:label
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:75:13-45
+	android:theme
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:74:52-91
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:74:13-51
+activity#com.olmatech.fitness.ui.ExImageViewActivity
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:76:11-78:86
+	android:screenOrientation
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:78:46-82
+	android:label
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:78:13-45
+	android:theme
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:77:52-88
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:77:13-51
+activity#com.olmatech.fitness.ui.LogCalendarActivity
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:79:12-81:86
+	android:screenOrientation
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:81:46-82
+	android:label
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:81:13-45
+	android:theme
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:80:52-91
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:80:13-51
+activity#com.olmatech.fitness.ui.LogViewActivity
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:82:12-84:86
+	android:screenOrientation
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:84:46-82
+	android:label
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:84:13-45
+	android:theme
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:83:48-87
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:83:13-47
+activity#com.olmatech.fitness.ui.PopupDlgActivity
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:85:12-87:86
+	android:screenOrientation
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:87:46-82
+	android:label
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:87:13-45
+	android:theme
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:86:49-85
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:86:13-48
+activity#com.olmatech.fitness.ui.DateSelectActivity
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:88:9-90:86
+	android:screenOrientation
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:90:46-82
+	android:label
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:90:13-45
+	android:theme
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:89:51-87
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:89:13-50
+activity#com.olmatech.fitness.ui.AdvancedSettingsActivity
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:91:13-93:86
+	android:screenOrientation
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:93:46-82
+	android:label
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:93:13-45
+	android:theme
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:92:57-93
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:92:13-56
+activity#com.olmatech.fitness.music.PlaylistActivity
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:94:11-96:86
+	android:screenOrientation
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:96:46-82
+	android:label
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:96:13-45
+	android:theme
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:95:52-88
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:95:13-51
+activity#com.olmatech.fitness.music.PlayMusicActivity
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:97:13-99:86
+	android:screenOrientation
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:99:46-82
+	android:label
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:99:13-45
+	android:theme
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:98:53-89
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:98:13-52
+activity#com.olmatech.fitness.ui.UnitConvertActivity
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:100:12-102:86
+	android:screenOrientation
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:102:46-82
+	android:label
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:102:13-45
+	android:theme
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:101:52-88
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:101:13-51
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:103:9-98
+	android:value
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:103:66-96
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:103:20-65
+service#com.olmatech.fitness.music.MusicPlayerService
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:104:4-123
+	android:permission
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:104:54-112
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:104:13-53
+receiver#com.olmatech.fitness.music.MusicIntentReceiver
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:105:4-109:13
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:105:14-55
+intent-filter#android.media.AUDIO_BECOMING_NOISY
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:106:4-108:20
+action#android.media.AUDIO_BECOMING_NOISY
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:107:7-67
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:107:15-64
+receiver#com.olmatech.fitness.music.OutgoingReceiver
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:110:2-117:16
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:110:12-50
+intent-filter#android.intent.action.PHONE_STATE
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:111:9-113:25
+action#android.intent.action.PHONE_STATE
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:112:13-72
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:112:21-69
+intent-filter#android.intent.action.NEW_OUTGOING_CALL
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:114:9-116:25
+action#android.intent.action.NEW_OUTGOING_CALL
+ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:115:13-78
+	android:name
+		ADDED from /home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/AndroidManifest.xml:115:21-75

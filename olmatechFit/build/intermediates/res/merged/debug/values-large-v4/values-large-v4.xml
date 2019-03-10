@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cal_day">16sp</dimen>
+    <dimen name="cal_item">10sp</dimen>
+    <dimen name="form_txt">18sp</dimen>
+    <dimen name="list_wk_txt_sz">12sp</dimen>
+    <dimen name="wheel_title">14sp</dimen>
+</resources>

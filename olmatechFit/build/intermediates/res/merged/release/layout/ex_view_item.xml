@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ex_view_container"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/list_item_height"    
+    android:background="@color/bgcolor"  >
+    <!-- Tick -->
+	 <com.olmatech.fitness.controls.AppTickImageView
+        android:id="@+id/imgArrow"
+  	    android:layout_width="@dimen/arrow_img"
+  	    android:layout_height="@dimen/arrow_img"
+  	    android:layout_alignParentLeft="true"    
+  	    android:layout_centerVertical="true"   
+  	    android:layout_marginRight="20dp"	    
+  	    android:adjustViewBounds="true"  	    
+  	    android:scaleType="fitXY"
+  	    android:src="@drawable/arrow_right_anim" />
+     <!-- Image -->
+  <RelativeLayout android:id="@+id/img_cont"
+        android:layout_width="wrap_content"
+  	    android:layout_height="wrap_content"
+  	    android:minHeight="@dimen/list_item_height"
+  	    android:layout_alignParentTop="true"
+  	    android:layout_marginLeft="@dimen/padding_aver"
+  	    android:layout_marginTop="@dimen/padding_aver"
+  	    android:layout_marginBottom="@dimen/padding_aver"
+  	    android:layout_toRightOf="@+id/imgArrow"
+  	    android:padding="4dp" 
+  	    android:background="@drawable/list_img_bg"	 >
+  <ImageView
+      android:id="@+id/img_ex"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:layout_centerVertical="true"
+      android:adjustViewBounds="true"
+      android:scaleType="fitXY"
+      android:src="@drawable/back_row_m" />
+
+  </RelativeLayout>  
+ <RelativeLayout android:id="@+id/container_txt_ex_name"
+     android:layout_width="wrap_content"
+  	    android:layout_height="wrap_content"
+  	    android:layout_alignBottom="@+id/img_cont"
+  	    android:layout_alignTop="@+id/img_cont"  	
+  	    android:layout_marginLeft="6dp"
+  	    android:layout_toLeftOf="@+id/but_done"
+  	    android:layout_toRightOf="@+id/img_cont"    
+  	    >
+  	<TextView
+  	    android:id="@+id/txt_ex_name"
+  	    android:layout_width="wrap_content"
+  	    android:layout_height="wrap_content"
+  	    style="@style/listExLabelTextLight"
+  	    android:layout_centerVertical="true"
+  	    android:layout_gravity="center_vertical|left"  	    
+  	    android:maxLines="3"
+  	    android:text="Back row" />
+</RelativeLayout>
+  <!--  Done button -->
+   <com.olmatech.fitness.controls.AppButton android:id="@+id/but_done"
+      	android:layout_width="wrap_content"
+		android:layout_height="wrap_content"  
+		android:padding="6dp"  
+		android:background="@drawable/blue_but_selector"
+		android:textAppearance="@style/ListButtonText"
+	    android:layout_alignParentRight="true"    
+	    android:layout_centerVertical="true"	    
+	    android:layout_marginRight="20dp"
+	    android:text="@string/done" />
+   	<!-- Complete overlay -->   	
+  	<View
+		android:id="@+id/imgCompleteOverlay"		
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"		
+		android:background="@drawable/ex_complete_overlay" />
+  	<!-- divider -->
+  	<View  android:layout_width="match_parent"       
+       	android:layout_height="2dp"       	
+       	android:layout_alignParentBottom="true"  
+       	android:layout_marginTop="10dp" 	
+       	android:background="@color/dkgray" />  
+</RelativeLayout>

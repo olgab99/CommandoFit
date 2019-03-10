@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:layout_marginBottom="@dimen/padding_aver"     
+    android:paddingLeft="@dimen/padding_aver" >  
+    <!--  Background -->
+  	<RelativeLayout android:id="@+id/itemBg" 
+  	    android:layout_width="wrap_content" 
+  	    android:layout_height="wrap_content"
+  	    android:minHeight="@dimen/list_item_height"
+  	    android:layout_alignParentLeft="true"
+  	    android:layout_centerVertical="true"
+  	    android:layout_toLeftOf="@+id/railBlack"
+  	    android:paddingLeft="2dp"
+  	    android:paddingRight="2dp"
+  	    android:background="@drawable/wk_list_item_selector"  >
+  	 <!-- complete tick -->
+     <ImageView
+         android:id="@+id/img_day_done"
+         android:layout_width="30dp"
+         android:layout_height="30dp"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginLeft="6dp"
+         android:layout_marginTop="6dp"
+         android:adjustViewBounds="true"        
+         android:scaleType="fitXY"
+         android:src="@drawable/tic" />   
+    <RelativeLayout
+        android:layout_width="wrap_content" 
+  	    android:layout_height="wrap_content"
+  	    android:layout_centerInParent="true" >    
+  	<TextView
+         android:id="@+id/txtBlock"
+  	     android:layout_width="match_parent"
+  	     android:layout_height="wrap_content"
+  	     android:textAppearance="@style/listWkLabelText"  	    
+  	     android:text="Block 1"
+  	     android:layout_centerHorizontal="true"
+  	     android:gravity="center_horizontal|center_vertical"
+  	     android:layout_alignParentTop="true"
+  	     android:layout_marginTop="6dp" />
+     <TextView
+         android:id="@+id/txtDay"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/txtBlock"
+         android:layout_centerHorizontal="true"  
+         android:gravity="center_horizontal|center_vertical"      
+         android:maxLines="3"
+         android:text="Day 1"
+         android:textAppearance="@style/listWkLabelText" />        
+      </RelativeLayout>
+      <!-- Complete overlay -->
+  	<View
+		android:id="@+id/imgCompleteOverlay"		
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"		
+		android:background="@drawable/ex_complete_overlay" />
+    </RelativeLayout>
+    <!-- right rail -->       
+     <View android:id="@+id/railRight"
+        android:layout_width="1px"
+  	    android:layout_height="0dp"
+  	    android:layout_alignParentRight="true"
+  	    android:layout_alignTop="@+id/itemBg"
+  	    android:layout_alignBottom="@+id/itemBg"
+  	    android:background="@color/bgcolor" />
+    <View android:id="@+id/railBlack"
+        android:layout_width="@dimen/rail_width"
+  	    android:layout_height="0dp"
+  	    android:layout_toLeftOf="@+id/railRight"
+  	    android:layout_alignTop="@+id/railRight"
+  	    android:layout_alignBottom="@+id/railRight"
+  	    android:background="@color/bgcolor" />  	    
+    <!-- arrow -->
+    <ImageView
+        android:id="@+id/imgArrow"
+  	    android:layout_width="20dp"
+  	    android:layout_height="20dp"
+  	    android:layout_alignParentRight="true"
+  	    android:layout_centerVertical="true" 	    
+  	    android:adjustViewBounds="true"  	    
+  	    android:scaleType="fitXY"
+  	    android:src="@drawable/arrow_left" />  	   
+ </RelativeLayout>

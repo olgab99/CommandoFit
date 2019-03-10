@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"   
+    android:orientation="vertical"
+    android:padding="@dimen/margin_top_bot"  android:background="@drawable/cont_menu_bg" >  
+<Button
+    android:id="@+id/butView"
+    style="@style/contMenuButton"
+    android:layout_width="match_parent"
+    android:text="@string/view"
+    android:textColor="@color/txt_light" />
+<!--  
+<Button
+    android:id="@+id/butDo"
+    style="@style/contMenuButton"
+    android:text="@string/do_today"
+    android:textColor="@color/txt_light" /> -->
+<Button
+    android:id="@+id/butMakeCurrent"
+    style="@style/contMenuButton"
+    android:text="@string/make_current"
+    android:textColor="@color/txt_light" />
+</LinearLayout>

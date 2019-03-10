@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AppTextViewSizable">
+    	<attr name="tabTextSize" format="integer"></attr>
+    	<attr name="phoneTextSize" format="integer"></attr>
+     </declare-styleable>
+     <declare-styleable name="UnitConverterFragment">
+         <attr name="title" format="string"></attr>         
+         <attr name="radio1" format="string"></attr>
+         <attr name="radio2" format="string"></attr>
+         <attr name="coeff1" format="float"></attr>
+          <attr name="coeff2" format="float"></attr>
+          <attr name="radio1ResUnits" format="string"></attr>         
+          <attr name="radio2ResUnits" format="string"></attr>         
+     </declare-styleable>
+</resources>

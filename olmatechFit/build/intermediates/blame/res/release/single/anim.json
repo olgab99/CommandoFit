@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/build/intermediates/res/merged/release/anim/appear.xml",
+        "source": "/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/res/anim/appear.xml"
+    },
+    {
+        "merged": "/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/build/intermediates/res/merged/release/anim/dissapear.xml",
+        "source": "/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/res/anim/dissapear.xml"
+    },
+    {
+        "merged": "/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/build/intermediates/res/merged/release/anim/right_to_left.xml",
+        "source": "/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/res/anim/right_to_left.xml"
+    },
+    {
+        "merged": "/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/build/intermediates/res/merged/release/anim/left_to_right.xml",
+        "source": "/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/src/main/res/anim/left_to_right.xml"
+    }
+]

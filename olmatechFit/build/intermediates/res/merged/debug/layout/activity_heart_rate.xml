@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<RelativeLayout style="@style/dlgContainer" >
+<TextView android:id="@+id/hr_title"
+    style="@style/dlgTitle"
+    android:text="@string/hr_title"  />   
+<ImageView android:id="@+id/common_small_close"
+ 	style="@style/closeButton" />
+<ImageView  android:id="@+id/common_but_help" 
+	    style="@style/helpButton" />
+<TextView android:id="@+id/hr_subtitle"
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"     
+	     android:layout_marginBottom="@dimen/margin_top_bot"
+	     android:layout_below="@+id/hr_title"
+	     android:layout_centerHorizontal="true"
+	     android:gravity="center_horizontal"
+	     android:text="@string/hr_subtitle"
+	     android:textAppearance="@style/formText" /> 
+ <!--  Age -->
+ <LinearLayout android:id="@+id/age_cont" 
+     android:layout_width="match_parent"
+	  android:layout_height="wrap_content"   
+	   android:layout_marginBottom="10dp"
+	   android:weightSum="1" 
+	  android:layout_below="@+id/hr_subtitle" >  
+      <TextView
+           style="@style/formLbl"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="10dp"
+           android:layout_gravity="right|center_vertical"
+           android:gravity="right|center_vertical"
+           android:layout_weight="0.5"
+           android:text="@string/age"
+           android:textAllCaps="true" /> 
+       <EditText
+           android:id="@+id/hr_age"
+           style="@style/formEdit"
+           android:layout_gravity="left|center_vertical"
+           android:layout_marginLeft="10dp"
+           android:layout_weight="0.2"
+           android:gravity="left|center_vertical"
+           android:inputType="number"          
+           android:maxWidth="100dp" />      
+ </LinearLayout>
+ <LinearLayout android:id="@+id/rate_cont" 
+     android:layout_width="match_parent"
+	  android:layout_height="wrap_content"   
+	   android:layout_marginBottom="10dp"
+	   android:weightSum="1" 
+	  android:layout_below="@+id/age_cont" >  
+   <!--  Resting hart rate -->     
+       <TextView
+           android:id="@+id/hr_rest_hr_title"
+           style="@style/formLbl"
+            android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="10dp"
+           android:layout_gravity="right|center_vertical"
+           android:gravity="right|center_vertical"
+           android:layout_weight="0.5"
+           android:text="@string/hr_rest_hr"
+           android:textAllCaps="true" />
+         <EditText
+           android:id="@+id/hr_rest_hr"
+           style="@style/formEdit"
+           android:maxWidth="100dp" 
+           android:layout_marginLeft="10dp"
+           android:layout_gravity="left|center_vertical"
+           android:gravity="left|center_vertical"
+           android:layout_weight="0.2"          
+           android:inputType="number" />       
+</LinearLayout>
+   <com.olmatech.fitness.controls.AppButton android:id="@+id/hr_but_calculate"
+         style="@style/blueButton"
+         android:layout_below="@+id/rate_cont"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="20dp"       
+         android:onClick="onButtonClick"
+         android:textAllCaps="true" android:text="@string/but_calculate" >       
+   </com.olmatech.fitness.controls.AppButton>
+   <!--  Cardio hart rate zones fragment -->
+  <fragment android:name="com.olmatech.fitness.view.CardioZonesFragment"
+	     android:id="@+id/frag_cardio_zones"
+	     android:layout_width="match_parent"
+         android:layout_height="wrap_content" 
+         android:layout_below="@+id/hr_but_calculate" />	
+	<com.olmatech.fitness.controls.AppButton android:id="@+id/hr_but_close"
+        style="@style/blueButton"
+	    android:textAllCaps="true" 
+	    android:layout_below="@+id/frag_cardio_zones"
+	    android:layout_centerHorizontal="true"		       
+	    android:onClick="onButtonClick"
+	    android:text="@string/close" />
+</RelativeLayout></ScrollView>

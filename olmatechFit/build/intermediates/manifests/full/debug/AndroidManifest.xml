@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.olmatech.fitness"
+    android:versionCode="11"
+    android:versionName="1.10" >
+    <!--
+ For Samsung 
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />	
+    End For Samsung
+    -->
+    <!--
+  For Google licensing 
+	<uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+	  End For Google licensing
+    -->
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.olmatech.fitness.ui.StartActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.olmatech.fitness.ui.SplashActivityPhone"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.BlueWindow" />
+        <activity
+            android:name="com.olmatech.fitness.ui.MainActivityPhone"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.BlueWindow" />
+        <activity
+            android:name="com.olmatech.fitness.ui.FirstActivityPhone"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.BlueWindow" />
+        <activity
+            android:name="com.olmatech.fitness.ui.ExerciseActivityPhone"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.BlueWindow"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.olmatech.fitness.ui.TackticalActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.BlueWindow"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.olmatech.fitness.ui.ExListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name="com.olmatech.fitness.ui.InterviewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name="com.olmatech.fitness.ui.CalcMenuActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name="com.olmatech.fitness.ui.MenuActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name="com.olmatech.fitness.ui.MaxrepActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name="com.olmatech.fitness.ui.HrCalculatorActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name="com.olmatech.fitness.ui.SettingsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name="com.olmatech.fitness.ui.HelpActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.BlueWindow" />
+        <activity
+            android:name="com.olmatech.fitness.ui.LogListDlgActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name="com.olmatech.fitness.ui.CardioZonesActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.BlueWindow" />
+        <activity
+            android:name="com.olmatech.fitness.ui.ExImageViewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name="com.olmatech.fitness.ui.LogCalendarActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.BlueWindow" />
+        <activity
+            android:name="com.olmatech.fitness.ui.LogViewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.BlueWindow" />
+        <activity
+            android:name="com.olmatech.fitness.ui.PopupDlgActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name="com.olmatech.fitness.ui.DateSelectActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name="com.olmatech.fitness.ui.AdvancedSettingsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name="com.olmatech.fitness.music.PlaylistActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name="com.olmatech.fitness.music.PlayMusicActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name="com.olmatech.fitness.ui.UnitConvertActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleDialog" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <service
+            android:name="com.olmatech.fitness.music.MusicPlayerService"
+            android:permission="android.permission.READ_SOCIAL_STREAM" />
+
+        <receiver android:name="com.olmatech.fitness.music.MusicIntentReceiver" >
+            <intent-filter>
+                <action android:name="android.media.AUDIO_BECOMING_NOISY" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.olmatech.fitness.music.OutgoingReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

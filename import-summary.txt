@@ -1,0 +1,477 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From LicensingCommon:
+* .gitignore
+* LicensingCommon.iml
+* proguard-project.txt
+From LoaderEx:
+* .gitignore
+* LICENSE
+* README.markdown
+* build.xml
+* commonsguy-cwac-loaderex-d1a4fd9.iml
+* demo/
+* demo/.classpath
+* demo/.project
+* demo/AndroidManifest.xml
+* demo/build.xml
+* demo/proguard.cfg
+* demo/project.properties
+* demo/res/
+* demo/res/drawable-hdpi/
+* demo/res/drawable-hdpi/icon.png
+* demo/res/drawable-ldpi/
+* demo/res/drawable-ldpi/icon.png
+* demo/res/drawable-mdpi/
+* demo/res/drawable-mdpi/icon.png
+* demo/res/drawable/
+* demo/res/drawable/add.png
+* demo/res/drawable/cw.png
+* demo/res/drawable/delete.png
+* demo/res/layout/
+* demo/res/layout/add_edit.xml
+* demo/res/layout/main.xml
+* demo/res/layout/prefs.xml
+* demo/res/layout/row.xml
+* demo/res/values/
+* demo/res/values/strings.xml
+* demo/src/
+* demo/src/com/
+* demo/src/com/commonsware/
+* demo/src/com/commonsware/cwac/
+* demo/src/com/commonsware/cwac/loaderex/
+* demo/src/com/commonsware/cwac/loaderex/demo/
+* demo/src/com/commonsware/cwac/loaderex/demo/ConstantsBrowser.java
+* demo/src/com/commonsware/cwac/loaderex/demo/ConstantsBrowserACL.java
+* demo/src/com/commonsware/cwac/loaderex/demo/DatabaseHelper.java
+* demo/src/com/commonsware/cwac/loaderex/demo/SharedPreferencesACLDemo.java
+* demo/src/com/commonsware/cwac/loaderex/demo/SharedPreferencesDemo.java
+* proguard.cfg
+From OlmatechFit:
+* .checkstyle
+* ic_launcher-web.png
+* proguard-project.txt
+From wheel:
+* .gitignore
+* wheel.iml
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In LicensingCommon:
+* AndroidManifest.xml => licensingCommon/src/main/AndroidManifest.xml
+* lint.xml => licensingCommon/lint.xml
+* res/ => licensingCommon/src/main/res/
+* src/ => licensingCommon/src/main/java/
+In LoaderEx:
+* AndroidManifest.xml => loaderEx/src/main/AndroidManifest.xml
+* res/ => loaderEx/src/main/res/
+* src/ => loaderEx/src/main/java/
+In wheel:
+* AndroidManifest.xml => wheel/src/main/AndroidManifest.xml
+* res/ => wheel/src/main/res/
+* src/ => wheel/src/main/java/
+In OlmatechFit:
+* AndroidManifest.xml => olmatechFit/src/main/AndroidManifest.xml
+* assets/ => olmatechFit/src/main/assets/
+* assets/help/ => olmatechFit/src/main/java/
+* assets/help/about.html => olmatechFit/src/main/resources/about.html
+* assets/help/heartrate.html => olmatechFit/src/main/resources/heartrate.html
+* assets/help/help1.html => olmatechFit/src/main/resources/help1.html
+* assets/help/img/back.png => olmatechFit/src/main/resources/img/back.png
+* assets/help/img/calc.png => olmatechFit/src/main/resources/img/calc.png
+* assets/help/img/cardio_icon.png => olmatechFit/src/main/resources/img/cardio_icon.png
+* assets/help/img/endurance_icon.png => olmatechFit/src/main/resources/img/endurance_icon.png
+* assets/help/img/help.png => olmatechFit/src/main/resources/img/help.png
+* assets/help/img/mass_icon.png => olmatechFit/src/main/resources/img/mass_icon.png
+* assets/help/img/menu.png => olmatechFit/src/main/resources/img/menu.png
+* assets/help/img/save_but.png => olmatechFit/src/main/resources/img/save_but.png
+* assets/help/img/save_calc_but.png => olmatechFit/src/main/resources/img/save_calc_but.png
+* assets/help/img/tact_icon.png => olmatechFit/src/main/resources/img/tact_icon.png
+* assets/help/interview.html => olmatechFit/src/main/resources/interview.html
+* assets/help/logcalendar.html => olmatechFit/src/main/resources/logcalendar.html
+* assets/help/menu.html => olmatechFit/src/main/resources/menu.html
+* assets/help/onemaxrep.html => olmatechFit/src/main/resources/onemaxrep.html
+* assets/help/settings.html => olmatechFit/src/main/resources/settings.html
+* assets/help/tactical.html => olmatechFit/src/main/resources/tactical.html
+* assets/help/workout.html => olmatechFit/src/main/resources/workout.html
+* assets/help/workouts_list.html => olmatechFit/src/main/resources/workouts_list.html
+* lint.xml => olmatechFit/lint.xml
+* res/ => olmatechFit/src/main/res/
+* src/ => olmatechFit/src/main/java/
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/ => olmatechFit/src/main/java/
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/Readme.txt => olmatechFit/src/main/resources/AudienceNetwork/Readme.txt
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/allclasses-frame.html => olmatechFit/src/main/resources/AudienceNetwork/docs/allclasses-frame.html
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/allclasses-noframe.html => olmatechFit/src/main/resources/AudienceNetwork/docs/allclasses-noframe.html
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/com/facebook/ads/Ad.html => olmatechFit/src/main/resources/AudienceNetwork/docs/com/facebook/ads/Ad.html
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/com/facebook/ads/AdError.html => olmatechFit/src/main/resources/AudienceNetwork/docs/com/facebook/ads/AdError.html
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/com/facebook/ads/AdListener.html => olmatechFit/src/main/resources/AudienceNetwork/docs/com/facebook/ads/AdListener.html
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/com/facebook/ads/AdSettings.html => olmatechFit/src/main/resources/AudienceNetwork/docs/com/facebook/ads/AdSettings.html
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/com/facebook/ads/AdSize.html => olmatechFit/src/main/resources/AudienceNetwork/docs/com/facebook/ads/AdSize.html
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/com/facebook/ads/AdView.html => olmatechFit/src/main/resources/AudienceNetwork/docs/com/facebook/ads/AdView.html
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/com/facebook/ads/ImpressionListener.html => olmatechFit/src/main/resources/AudienceNetwork/docs/com/facebook/ads/ImpressionListener.html
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/com/facebook/ads/InterstitialAd.html => olmatechFit/src/main/resources/AudienceNetwork/docs/com/facebook/ads/InterstitialAd.html
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/com/facebook/ads/InterstitialAdActivity.html => olmatechFit/src/main/resources/AudienceNetwork/docs/com/facebook/ads/InterstitialAdActivity.html
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/com/facebook/ads/InterstitialAdListener.html => olmatechFit/src/main/resources/AudienceNetwork/docs/com/facebook/ads/InterstitialAdListener.html
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/com/facebook/ads/NativeAd.Image.html => olmatechFit/src/main/resources/AudienceNetwork/docs/com/facebook/ads/NativeAd.Image.html
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/com/facebook/ads/NativeAd.Rating.html => olmatechFit/src/main/resources/AudienceNetwork/docs/com/facebook/ads/NativeAd.Rating.html
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/com/facebook/ads/NativeAd.html => olmatechFit/src/main/resources/AudienceNetwork/docs/com/facebook/ads/NativeAd.html
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/com/facebook/ads/VideoAdActivity.html => olmatechFit/src/main/resources/AudienceNetwork/docs/com/facebook/ads/VideoAdActivity.html
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/com/facebook/ads/package-frame.html => olmatechFit/src/main/resources/AudienceNetwork/docs/com/facebook/ads/package-frame.html
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/com/facebook/ads/package-summary.html => olmatechFit/src/main/resources/AudienceNetwork/docs/com/facebook/ads/package-summary.html
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/com/facebook/ads/package-tree.html => olmatechFit/src/main/resources/AudienceNetwork/docs/com/facebook/ads/package-tree.html
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/constant-values.html => olmatechFit/src/main/resources/AudienceNetwork/docs/constant-values.html
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/deprecated-list.html => olmatechFit/src/main/resources/AudienceNetwork/docs/deprecated-list.html
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/help-doc.html => olmatechFit/src/main/resources/AudienceNetwork/docs/help-doc.html
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/index-all.html => olmatechFit/src/main/resources/AudienceNetwork/docs/index-all.html
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/index.html => olmatechFit/src/main/resources/AudienceNetwork/docs/index.html
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/overview-tree.html => olmatechFit/src/main/resources/AudienceNetwork/docs/overview-tree.html
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/package-list => olmatechFit/src/main/resources/AudienceNetwork/docs/package-list
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/resources/background.gif => olmatechFit/src/main/resources/AudienceNetwork/docs/resources/background.gif
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/resources/tab.gif => olmatechFit/src/main/resources/AudienceNetwork/docs/resources/tab.gif
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/resources/titlebar.gif => olmatechFit/src/main/resources/AudienceNetwork/docs/resources/titlebar.gif
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/resources/titlebar_end.gif => olmatechFit/src/main/resources/AudienceNetwork/docs/resources/titlebar_end.gif
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/docs/stylesheet.css => olmatechFit/src/main/resources/AudienceNetwork/docs/stylesheet.css
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/AdUnitsSample/.classpath => olmatechFit/src/main/resources/AudienceNetwork/samples/AdUnitsSample/.classpath
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/AdUnitsSample/.project => olmatechFit/src/main/resources/AudienceNetwork/samples/AdUnitsSample/.project
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/AdUnitsSample/AndroidManifest.xml => olmatechFit/src/main/resources/AudienceNetwork/samples/AdUnitsSample/AndroidManifest.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/AdUnitsSample/ant.properties => olmatechFit/src/main/resources/AudienceNetwork/samples/AdUnitsSample/ant.properties
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/AdUnitsSample/build.xml => olmatechFit/src/main/resources/AudienceNetwork/samples/AdUnitsSample/build.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/AdUnitsSample/ic_launcher-web.png => olmatechFit/src/main/resources/AudienceNetwork/samples/AdUnitsSample/ic_launcher-web.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/AdUnitsSample/proguard-project.txt => olmatechFit/src/main/resources/AudienceNetwork/samples/AdUnitsSample/proguard-project.txt
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/AdUnitsSample/project.properties => olmatechFit/src/main/resources/AudienceNetwork/samples/AdUnitsSample/project.properties
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/AdUnitsSample/res/drawable-hdpi/ic_launcher.png => olmatechFit/src/main/resources/AudienceNetwork/samples/AdUnitsSample/res/drawable-hdpi/ic_launcher.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/AdUnitsSample/res/drawable-mdpi/ic_launcher.png => olmatechFit/src/main/resources/AudienceNetwork/samples/AdUnitsSample/res/drawable-mdpi/ic_launcher.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/AdUnitsSample/res/drawable-xhdpi/ic_launcher.png => olmatechFit/src/main/resources/AudienceNetwork/samples/AdUnitsSample/res/drawable-xhdpi/ic_launcher.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/AdUnitsSample/res/drawable-xxhdpi/ic_launcher.png => olmatechFit/src/main/resources/AudienceNetwork/samples/AdUnitsSample/res/drawable-xxhdpi/ic_launcher.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/AdUnitsSample/res/layout/activity_ad_sample.xml => olmatechFit/src/main/resources/AudienceNetwork/samples/AdUnitsSample/res/layout/activity_ad_sample.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/AdUnitsSample/res/layout/fragment_banner.xml => olmatechFit/src/main/resources/AudienceNetwork/samples/AdUnitsSample/res/layout/fragment_banner.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/AdUnitsSample/res/layout/fragment_interstitial.xml => olmatechFit/src/main/resources/AudienceNetwork/samples/AdUnitsSample/res/layout/fragment_interstitial.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/AdUnitsSample/res/layout/fragment_rectangle.xml => olmatechFit/src/main/resources/AudienceNetwork/samples/AdUnitsSample/res/layout/fragment_rectangle.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/AdUnitsSample/res/values-large/layout.xml => olmatechFit/src/main/resources/AudienceNetwork/samples/AdUnitsSample/res/values-large/layout.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/AdUnitsSample/res/values-sw600dp/layout.xml => olmatechFit/src/main/resources/AudienceNetwork/samples/AdUnitsSample/res/values-sw600dp/layout.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/AdUnitsSample/res/values/layouts.xml => olmatechFit/src/main/resources/AudienceNetwork/samples/AdUnitsSample/res/values/layouts.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/AdUnitsSample/res/values/strings.xml => olmatechFit/src/main/resources/AudienceNetwork/samples/AdUnitsSample/res/values/strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/NativeAdSample/.classpath => olmatechFit/src/main/resources/AudienceNetwork/samples/NativeAdSample/.classpath
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/NativeAdSample/.project => olmatechFit/src/main/resources/AudienceNetwork/samples/NativeAdSample/.project
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/NativeAdSample/AndroidManifest.xml => olmatechFit/src/main/resources/AudienceNetwork/samples/NativeAdSample/AndroidManifest.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/NativeAdSample/ant.properties => olmatechFit/src/main/resources/AudienceNetwork/samples/NativeAdSample/ant.properties
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/NativeAdSample/build.xml => olmatechFit/src/main/resources/AudienceNetwork/samples/NativeAdSample/build.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/NativeAdSample/ic_launcher-web.png => olmatechFit/src/main/resources/AudienceNetwork/samples/NativeAdSample/ic_launcher-web.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/NativeAdSample/proguard-project.txt => olmatechFit/src/main/resources/AudienceNetwork/samples/NativeAdSample/proguard-project.txt
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/NativeAdSample/project.properties => olmatechFit/src/main/resources/AudienceNetwork/samples/NativeAdSample/project.properties
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/NativeAdSample/res/drawable-hdpi/ic_launcher.png => olmatechFit/src/main/resources/AudienceNetwork/samples/NativeAdSample/res/drawable-hdpi/ic_launcher.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/NativeAdSample/res/drawable-mdpi/ic_launcher.png => olmatechFit/src/main/resources/AudienceNetwork/samples/NativeAdSample/res/drawable-mdpi/ic_launcher.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/NativeAdSample/res/drawable-xhdpi/ic_launcher.png => olmatechFit/src/main/resources/AudienceNetwork/samples/NativeAdSample/res/drawable-xhdpi/ic_launcher.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/NativeAdSample/res/drawable-xxhdpi/ic_launcher.png => olmatechFit/src/main/resources/AudienceNetwork/samples/NativeAdSample/res/drawable-xxhdpi/ic_launcher.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/NativeAdSample/res/layout/activity_native_ad_demo.xml => olmatechFit/src/main/resources/AudienceNetwork/samples/NativeAdSample/res/layout/activity_native_ad_demo.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/NativeAdSample/res/layout/ad_unit.xml => olmatechFit/src/main/resources/AudienceNetwork/samples/NativeAdSample/res/layout/ad_unit.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/NativeAdSample/res/layout/list_item.xml => olmatechFit/src/main/resources/AudienceNetwork/samples/NativeAdSample/res/layout/list_item.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/NativeAdSample/res/layout/native_ad_list_demo.xml => olmatechFit/src/main/resources/AudienceNetwork/samples/NativeAdSample/res/layout/native_ad_list_demo.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/AudienceNetwork/samples/NativeAdSample/res/values/strings.xml => olmatechFit/src/main/resources/AudienceNetwork/samples/NativeAdSample/res/values/strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/CONTRIBUTING.mdown => olmatechFit/src/main/resources/CONTRIBUTING.mdown
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/LICENSE.txt => olmatechFit/src/main/resources/LICENSE.txt
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/NOTICE.txt => olmatechFit/src/main/resources/NOTICE.txt
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/README.mdown => olmatechFit/src/main/resources/README.mdown
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/build.gradle => olmatechFit/src/main/resources/build.gradle
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/AndroidManifest.xml => olmatechFit/src/main/resources/facebook/AndroidManifest.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/build.gradle => olmatechFit/src/main/resources/facebook/build.gradle
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-hdpi/com_facebook_button_icon.png => olmatechFit/src/main/resources/facebook/res/drawable-hdpi/com_facebook_button_icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-hdpi/com_facebook_button_like_icon_selected.png => olmatechFit/src/main/resources/facebook/res/drawable-hdpi/com_facebook_button_like_icon_selected.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-hdpi/com_facebook_button_send_icon.png => olmatechFit/src/main/resources/facebook/res/drawable-hdpi/com_facebook_button_send_icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-hdpi/com_facebook_close.png => olmatechFit/src/main/resources/facebook/res/drawable-hdpi/com_facebook_close.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-hdpi/com_facebook_tooltip_black_background.9.png => olmatechFit/src/main/resources/facebook/res/drawable-hdpi/com_facebook_tooltip_black_background.9.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-hdpi/com_facebook_tooltip_black_bottomnub.png => olmatechFit/src/main/resources/facebook/res/drawable-hdpi/com_facebook_tooltip_black_bottomnub.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-hdpi/com_facebook_tooltip_black_topnub.png => olmatechFit/src/main/resources/facebook/res/drawable-hdpi/com_facebook_tooltip_black_topnub.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-hdpi/com_facebook_tooltip_black_xout.png => olmatechFit/src/main/resources/facebook/res/drawable-hdpi/com_facebook_tooltip_black_xout.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-hdpi/com_facebook_tooltip_blue_background.9.png => olmatechFit/src/main/resources/facebook/res/drawable-hdpi/com_facebook_tooltip_blue_background.9.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-hdpi/com_facebook_tooltip_blue_bottomnub.png => olmatechFit/src/main/resources/facebook/res/drawable-hdpi/com_facebook_tooltip_blue_bottomnub.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-hdpi/com_facebook_tooltip_blue_topnub.png => olmatechFit/src/main/resources/facebook/res/drawable-hdpi/com_facebook_tooltip_blue_topnub.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-hdpi/com_facebook_tooltip_blue_xout.png => olmatechFit/src/main/resources/facebook/res/drawable-hdpi/com_facebook_tooltip_blue_xout.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-hdpi/messenger_bubble_large_blue.png => olmatechFit/src/main/resources/facebook/res/drawable-hdpi/messenger_bubble_large_blue.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-hdpi/messenger_bubble_large_white.png => olmatechFit/src/main/resources/facebook/res/drawable-hdpi/messenger_bubble_large_white.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-hdpi/messenger_bubble_small_blue.png => olmatechFit/src/main/resources/facebook/res/drawable-hdpi/messenger_bubble_small_blue.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-hdpi/messenger_bubble_small_white.png => olmatechFit/src/main/resources/facebook/res/drawable-hdpi/messenger_bubble_small_white.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-hdpi/messenger_button_send_round_shadow.png => olmatechFit/src/main/resources/facebook/res/drawable-hdpi/messenger_button_send_round_shadow.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-mdpi/com_facebook_button_icon.png => olmatechFit/src/main/resources/facebook/res/drawable-mdpi/com_facebook_button_icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-mdpi/com_facebook_button_like_icon_selected.png => olmatechFit/src/main/resources/facebook/res/drawable-mdpi/com_facebook_button_like_icon_selected.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-mdpi/com_facebook_button_send_icon.png => olmatechFit/src/main/resources/facebook/res/drawable-mdpi/com_facebook_button_send_icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-mdpi/com_facebook_close.png => olmatechFit/src/main/resources/facebook/res/drawable-mdpi/com_facebook_close.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-mdpi/com_facebook_profile_picture_blank_portrait.png => olmatechFit/src/main/resources/facebook/res/drawable-mdpi/com_facebook_profile_picture_blank_portrait.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-mdpi/com_facebook_profile_picture_blank_square.png => olmatechFit/src/main/resources/facebook/res/drawable-mdpi/com_facebook_profile_picture_blank_square.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-mdpi/com_facebook_tooltip_black_background.9.png => olmatechFit/src/main/resources/facebook/res/drawable-mdpi/com_facebook_tooltip_black_background.9.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-mdpi/com_facebook_tooltip_black_bottomnub.png => olmatechFit/src/main/resources/facebook/res/drawable-mdpi/com_facebook_tooltip_black_bottomnub.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-mdpi/com_facebook_tooltip_black_topnub.png => olmatechFit/src/main/resources/facebook/res/drawable-mdpi/com_facebook_tooltip_black_topnub.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-mdpi/com_facebook_tooltip_black_xout.png => olmatechFit/src/main/resources/facebook/res/drawable-mdpi/com_facebook_tooltip_black_xout.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-mdpi/com_facebook_tooltip_blue_background.9.png => olmatechFit/src/main/resources/facebook/res/drawable-mdpi/com_facebook_tooltip_blue_background.9.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-mdpi/com_facebook_tooltip_blue_bottomnub.png => olmatechFit/src/main/resources/facebook/res/drawable-mdpi/com_facebook_tooltip_blue_bottomnub.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-mdpi/com_facebook_tooltip_blue_topnub.png => olmatechFit/src/main/resources/facebook/res/drawable-mdpi/com_facebook_tooltip_blue_topnub.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-mdpi/com_facebook_tooltip_blue_xout.png => olmatechFit/src/main/resources/facebook/res/drawable-mdpi/com_facebook_tooltip_blue_xout.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-mdpi/messenger_bubble_large_blue.png => olmatechFit/src/main/resources/facebook/res/drawable-mdpi/messenger_bubble_large_blue.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-mdpi/messenger_bubble_large_white.png => olmatechFit/src/main/resources/facebook/res/drawable-mdpi/messenger_bubble_large_white.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-mdpi/messenger_bubble_small_blue.png => olmatechFit/src/main/resources/facebook/res/drawable-mdpi/messenger_bubble_small_blue.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-mdpi/messenger_bubble_small_white.png => olmatechFit/src/main/resources/facebook/res/drawable-mdpi/messenger_bubble_small_white.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-mdpi/messenger_button_send_round_shadow.png => olmatechFit/src/main/resources/facebook/res/drawable-mdpi/messenger_button_send_round_shadow.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-xhdpi/com_facebook_button_icon.png => olmatechFit/src/main/resources/facebook/res/drawable-xhdpi/com_facebook_button_icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-xhdpi/com_facebook_button_like_icon_selected.png => olmatechFit/src/main/resources/facebook/res/drawable-xhdpi/com_facebook_button_like_icon_selected.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-xhdpi/com_facebook_button_send_icon.png => olmatechFit/src/main/resources/facebook/res/drawable-xhdpi/com_facebook_button_send_icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-xhdpi/com_facebook_close.png => olmatechFit/src/main/resources/facebook/res/drawable-xhdpi/com_facebook_close.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-xhdpi/com_facebook_tooltip_black_background.9.png => olmatechFit/src/main/resources/facebook/res/drawable-xhdpi/com_facebook_tooltip_black_background.9.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-xhdpi/com_facebook_tooltip_black_bottomnub.png => olmatechFit/src/main/resources/facebook/res/drawable-xhdpi/com_facebook_tooltip_black_bottomnub.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-xhdpi/com_facebook_tooltip_black_topnub.png => olmatechFit/src/main/resources/facebook/res/drawable-xhdpi/com_facebook_tooltip_black_topnub.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-xhdpi/com_facebook_tooltip_black_xout.png => olmatechFit/src/main/resources/facebook/res/drawable-xhdpi/com_facebook_tooltip_black_xout.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-xhdpi/com_facebook_tooltip_blue_background.9.png => olmatechFit/src/main/resources/facebook/res/drawable-xhdpi/com_facebook_tooltip_blue_background.9.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-xhdpi/com_facebook_tooltip_blue_bottomnub.png => olmatechFit/src/main/resources/facebook/res/drawable-xhdpi/com_facebook_tooltip_blue_bottomnub.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-xhdpi/com_facebook_tooltip_blue_topnub.png => olmatechFit/src/main/resources/facebook/res/drawable-xhdpi/com_facebook_tooltip_blue_topnub.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-xhdpi/com_facebook_tooltip_blue_xout.png => olmatechFit/src/main/resources/facebook/res/drawable-xhdpi/com_facebook_tooltip_blue_xout.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-xhdpi/messenger_bubble_large_blue.png => olmatechFit/src/main/resources/facebook/res/drawable-xhdpi/messenger_bubble_large_blue.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-xhdpi/messenger_bubble_large_white.png => olmatechFit/src/main/resources/facebook/res/drawable-xhdpi/messenger_bubble_large_white.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-xhdpi/messenger_bubble_small_blue.png => olmatechFit/src/main/resources/facebook/res/drawable-xhdpi/messenger_bubble_small_blue.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-xhdpi/messenger_bubble_small_white.png => olmatechFit/src/main/resources/facebook/res/drawable-xhdpi/messenger_bubble_small_white.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-xhdpi/messenger_button_send_round_shadow.png => olmatechFit/src/main/resources/facebook/res/drawable-xhdpi/messenger_button_send_round_shadow.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-xxhdpi/com_facebook_button_icon.png => olmatechFit/src/main/resources/facebook/res/drawable-xxhdpi/com_facebook_button_icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-xxhdpi/com_facebook_button_like_icon_selected.png => olmatechFit/src/main/resources/facebook/res/drawable-xxhdpi/com_facebook_button_like_icon_selected.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-xxhdpi/com_facebook_button_send_icon.png => olmatechFit/src/main/resources/facebook/res/drawable-xxhdpi/com_facebook_button_send_icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-xxhdpi/messenger_bubble_large_blue.png => olmatechFit/src/main/resources/facebook/res/drawable-xxhdpi/messenger_bubble_large_blue.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-xxhdpi/messenger_bubble_large_white.png => olmatechFit/src/main/resources/facebook/res/drawable-xxhdpi/messenger_bubble_large_white.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-xxhdpi/messenger_bubble_small_blue.png => olmatechFit/src/main/resources/facebook/res/drawable-xxhdpi/messenger_bubble_small_blue.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-xxhdpi/messenger_bubble_small_white.png => olmatechFit/src/main/resources/facebook/res/drawable-xxhdpi/messenger_bubble_small_white.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable-xxhdpi/messenger_button_send_round_shadow.png => olmatechFit/src/main/resources/facebook/res/drawable-xxhdpi/messenger_button_send_round_shadow.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable/com_facebook_button_background.xml => olmatechFit/src/main/resources/facebook/res/drawable/com_facebook_button_background.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable/com_facebook_button_like_background.xml => olmatechFit/src/main/resources/facebook/res/drawable/com_facebook_button_like_background.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable/com_facebook_button_login_silver_background.xml => olmatechFit/src/main/resources/facebook/res/drawable/com_facebook_button_login_silver_background.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable/com_facebook_button_send_background.xml => olmatechFit/src/main/resources/facebook/res/drawable/com_facebook_button_send_background.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable/messenger_button_blue_bg_round.xml => olmatechFit/src/main/resources/facebook/res/drawable/messenger_button_blue_bg_round.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable/messenger_button_blue_bg_selector.xml => olmatechFit/src/main/resources/facebook/res/drawable/messenger_button_blue_bg_selector.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable/messenger_button_white_bg_round.xml => olmatechFit/src/main/resources/facebook/res/drawable/messenger_button_white_bg_round.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/drawable/messenger_button_white_bg_selector.xml => olmatechFit/src/main/resources/facebook/res/drawable/messenger_button_white_bg_selector.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/layout/com_facebook_activity_layout.xml => olmatechFit/src/main/resources/facebook/res/layout/com_facebook_activity_layout.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/layout/com_facebook_login_fragment.xml => olmatechFit/src/main/resources/facebook/res/layout/com_facebook_login_fragment.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/layout/com_facebook_tooltip_bubble.xml => olmatechFit/src/main/resources/facebook/res/layout/com_facebook_tooltip_bubble.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/layout/messenger_button_send_blue_large.xml => olmatechFit/src/main/resources/facebook/res/layout/messenger_button_send_blue_large.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/layout/messenger_button_send_blue_round.xml => olmatechFit/src/main/resources/facebook/res/layout/messenger_button_send_blue_round.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/layout/messenger_button_send_blue_small.xml => olmatechFit/src/main/resources/facebook/res/layout/messenger_button_send_blue_small.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/layout/messenger_button_send_white_large.xml => olmatechFit/src/main/resources/facebook/res/layout/messenger_button_send_white_large.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/layout/messenger_button_send_white_round.xml => olmatechFit/src/main/resources/facebook/res/layout/messenger_button_send_white_round.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/layout/messenger_button_send_white_small.xml => olmatechFit/src/main/resources/facebook/res/layout/messenger_button_send_white_small.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-af/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-af/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-ar/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-ar/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-bn/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-bn/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-cs/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-cs/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-da/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-da/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-de/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-de/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-el/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-el/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-es-rES/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-es-rES/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-es/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-es/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-es/strings.xml => olmatechFit/src/main/resources/facebook/res/values-es/strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-fi/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-fi/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-fr/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-fr/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-gu/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-gu/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-he/strings.xml => olmatechFit/src/main/resources/facebook/res/values-he/strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-hi/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-hi/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-in/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-in/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-it/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-it/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-iw/strings.xml => olmatechFit/src/main/resources/facebook/res/values-iw/strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-ja/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-ja/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-kn/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-kn/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-ko/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-ko/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-ml/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-ml/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-mr/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-mr/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-ms/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-ms/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-nb/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-nb/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-nl/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-nl/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-pa/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-pa/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-pl/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-pl/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-pt-rPT/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-pt-rPT/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-pt/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-pt/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-ru/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-ru/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-sv/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-sv/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-ta/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-ta/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-te/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-te/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-th/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-th/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-tl/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-tl/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-tr/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-tr/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-vi/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-vi/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-zh-rCN/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-zh-rCN/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-zh-rHK/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-zh-rHK/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values-zh-rTW/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values-zh-rTW/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values/attrs.xml => olmatechFit/src/main/resources/facebook/res/values/attrs.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values/messenger_button_strings.xml => olmatechFit/src/main/resources/facebook/res/values/messenger_button_strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values/messenger_button_styles.xml => olmatechFit/src/main/resources/facebook/res/values/messenger_button_styles.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values/strings.xml => olmatechFit/src/main/resources/facebook/res/values/strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/facebook/res/values/styles.xml => olmatechFit/src/main/resources/facebook/res/values/styles.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/gradle.properties => olmatechFit/src/main/resources/gradle.properties
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/gradle/wrapper/gradle-wrapper.properties => olmatechFit/src/main/resources/gradle/wrapper/gradle-wrapper.properties
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/gradlew => olmatechFit/src/main/resources/gradlew
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/gradlew.bat => olmatechFit/src/main/resources/gradlew.bat
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/keystores/BUCK => olmatechFit/src/main/resources/keystores/BUCK
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/keystores/debug.keystore => olmatechFit/src/main/resources/keystores/debug.keystore
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/keystores/debug.keystore.properties => olmatechFit/src/main/resources/keystores/debug.keystore.properties
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/HelloFacebookSample/AndroidManifest.xml => olmatechFit/src/main/resources/samples/HelloFacebookSample/AndroidManifest.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/HelloFacebookSample/BUCK => olmatechFit/src/main/resources/samples/HelloFacebookSample/BUCK
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/HelloFacebookSample/build.gradle => olmatechFit/src/main/resources/samples/HelloFacebookSample/build.gradle
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/HelloFacebookSample/proguard-project.txt => olmatechFit/src/main/resources/samples/HelloFacebookSample/proguard-project.txt
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/HelloFacebookSample/res/drawable-hdpi/icon.png => olmatechFit/src/main/resources/samples/HelloFacebookSample/res/drawable-hdpi/icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/HelloFacebookSample/res/drawable-mdpi/icon.png => olmatechFit/src/main/resources/samples/HelloFacebookSample/res/drawable-mdpi/icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/HelloFacebookSample/res/drawable-xhdpi/icon.png => olmatechFit/src/main/resources/samples/HelloFacebookSample/res/drawable-xhdpi/icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/HelloFacebookSample/res/drawable/icon.png => olmatechFit/src/main/resources/samples/HelloFacebookSample/res/drawable/icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/HelloFacebookSample/res/layout/main.xml => olmatechFit/src/main/resources/samples/HelloFacebookSample/res/layout/main.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/HelloFacebookSample/res/values/strings.xml => olmatechFit/src/main/resources/samples/HelloFacebookSample/res/values/strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/MessengerSendSample/build.gradle => olmatechFit/src/main/resources/samples/MessengerSendSample/build.gradle
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/MessengerSendSample/src/main/AndroidManifest.xml => olmatechFit/src/main/resources/samples/MessengerSendSample/src/main/AndroidManifest.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/MessengerSendSample/src/main/res/drawable-xhdpi/tree.jpg => olmatechFit/src/main/resources/samples/MessengerSendSample/src/main/res/drawable-xhdpi/tree.jpg
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/MessengerSendSample/src/main/res/layout/main_activity.xml => olmatechFit/src/main/resources/samples/MessengerSendSample/src/main/res/layout/main_activity.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/MessengerSendSample/src/main/res/values/strings.xml => olmatechFit/src/main/resources/samples/MessengerSendSample/src/main/res/values/strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/RPSSample/AndroidManifest.xml => olmatechFit/src/main/resources/samples/RPSSample/AndroidManifest.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/RPSSample/build.gradle => olmatechFit/src/main/resources/samples/RPSSample/build.gradle
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/RPSSample/post_app_objects.sh => olmatechFit/src/main/resources/samples/RPSSample/post_app_objects.sh
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/RPSSample/proguard-project.txt => olmatechFit/src/main/resources/samples/RPSSample/proguard-project.txt
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/RPSSample/res/drawable-hdpi/icon.png => olmatechFit/src/main/resources/samples/RPSSample/res/drawable-hdpi/icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/RPSSample/res/drawable-mdpi/icon.png => olmatechFit/src/main/resources/samples/RPSSample/res/drawable-mdpi/icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/RPSSample/res/drawable-xhdpi/icon.png => olmatechFit/src/main/resources/samples/RPSSample/res/drawable-xhdpi/icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/RPSSample/res/drawable/app_background.xml => olmatechFit/src/main/resources/samples/RPSSample/res/drawable/app_background.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/RPSSample/res/drawable/fb_logo.png => olmatechFit/src/main/resources/samples/RPSSample/res/drawable/fb_logo.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/RPSSample/res/drawable/icon.png => olmatechFit/src/main/resources/samples/RPSSample/res/drawable/icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/RPSSample/res/drawable/icon_border.xml => olmatechFit/src/main/resources/samples/RPSSample/res/drawable/icon_border.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/RPSSample/res/drawable/left_paper.png => olmatechFit/src/main/resources/samples/RPSSample/res/drawable/left_paper.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/RPSSample/res/drawable/left_rock.png => olmatechFit/src/main/resources/samples/RPSSample/res/drawable/left_rock.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/RPSSample/res/drawable/left_scissors.png => olmatechFit/src/main/resources/samples/RPSSample/res/drawable/left_scissors.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/RPSSample/res/drawable/profile_default_icon.png => olmatechFit/src/main/resources/samples/RPSSample/res/drawable/profile_default_icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/RPSSample/res/drawable/right_paper.png => olmatechFit/src/main/resources/samples/RPSSample/res/drawable/right_paper.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/RPSSample/res/drawable/right_rock.png => olmatechFit/src/main/resources/samples/RPSSample/res/drawable/right_rock.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/RPSSample/res/drawable/right_scissors.png => olmatechFit/src/main/resources/samples/RPSSample/res/drawable/right_scissors.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/RPSSample/res/drawable/usersettings_facebook_logo.png => olmatechFit/src/main/resources/samples/RPSSample/res/drawable/usersettings_facebook_logo.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/RPSSample/res/drawable/usersettings_fragment_background_gradient.xml => olmatechFit/src/main/resources/samples/RPSSample/res/drawable/usersettings_fragment_background_gradient.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/RPSSample/res/layout/content_fragment.xml => olmatechFit/src/main/resources/samples/RPSSample/res/layout/content_fragment.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/RPSSample/res/layout/main.xml => olmatechFit/src/main/resources/samples/RPSSample/res/layout/main.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/RPSSample/res/layout/rps_fragment.xml => olmatechFit/src/main/resources/samples/RPSSample/res/layout/rps_fragment.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/RPSSample/res/layout/usersettings_fragment.xml => olmatechFit/src/main/resources/samples/RPSSample/res/layout/usersettings_fragment.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/RPSSample/res/values/strings.xml => olmatechFit/src/main/resources/samples/RPSSample/res/values/strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/RPSSample/res/values/styles.xml => olmatechFit/src/main/resources/samples/RPSSample/res/values/styles.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/AndroidManifest.xml => olmatechFit/src/main/resources/samples/Scrumptious/AndroidManifest.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/build.gradle => olmatechFit/src/main/resources/samples/Scrumptious/build.gradle
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/proguard-project.txt => olmatechFit/src/main/resources/samples/Scrumptious/proguard-project.txt
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable-hdpi/icon.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable-hdpi/icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable-hdpi/picker_magnifier.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable-hdpi/picker_magnifier.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable-hdpi/placeholder_image.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable-hdpi/placeholder_image.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable-mdpi/icon.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable-mdpi/icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable-mdpi/logo.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable-mdpi/logo.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable-mdpi/picker_magnifier.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable-mdpi/picker_magnifier.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable-mdpi/placeholder_image.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable-mdpi/placeholder_image.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable-xhdpi/icon.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable-xhdpi/icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable-xhdpi/logo.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable-xhdpi/logo.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable-xhdpi/picker_magnifier.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable-xhdpi/picker_magnifier.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable-xhdpi/placeholder_image.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable-xhdpi/placeholder_image.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/add_food.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/add_food.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/add_friends.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/add_friends.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/add_location.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/add_location.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/add_photo.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/add_photo.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/button_border.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/button_border.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/button_text_color.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/button_text_color.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/facebook.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/facebook.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/icon.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/picker_button_check.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/picker_button_check.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/picker_button_check_off.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/picker_button_check_off.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/picker_button_check_on.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/picker_button_check_on.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/picker_item_background.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/picker_item_background.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/picker_list_divider.9.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/picker_list_divider.9.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/picker_list_focused.9.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/picker_list_focused.9.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/picker_list_longpressed.9.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/picker_list_longpressed.9.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/picker_list_pressed.9.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/picker_list_pressed.9.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/picker_list_section_header_background.9.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/picker_list_section_header_background.9.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/picker_list_selector.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/picker_list_selector.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/picker_list_selector_background_transition.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/picker_list_selector_background_transition.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/picker_list_selector_disabled.9.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/picker_list_selector_disabled.9.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/picker_place_default_icon.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/picker_place_default_icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/picker_selector_top_button.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/picker_selector_top_button.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/picker_top_background.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/picker_top_background.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/picker_top_button.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/picker_top_button.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/placeholder_image.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/placeholder_image.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/profile_default_icon.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/profile_default_icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/title_bar_logo.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/title_bar_logo.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/usersettings_facebook_logo.png => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/usersettings_facebook_logo.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/drawable/usersettings_fragment_background_gradient.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/drawable/usersettings_fragment_background_gradient.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/layout/listitem.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/layout/listitem.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/layout/main.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/layout/main.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/layout/picker_activity_circle_row.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/layout/picker_activity_circle_row.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/layout/picker_checkbox.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/layout/picker_checkbox.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/layout/picker_friendpickerfragment.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/layout/picker_friendpickerfragment.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/layout/picker_image.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/layout/picker_image.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/layout/picker_list_row.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/layout/picker_list_row.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/layout/picker_list_section_header.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/layout/picker_list_section_header.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/layout/picker_placepickerfragment.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/layout/picker_placepickerfragment.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/layout/picker_placepickerfragment_list_row.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/layout/picker_placepickerfragment_list_row.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/layout/picker_search_bar_layout.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/layout/picker_search_bar_layout.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/layout/picker_search_box.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/layout/picker_search_box.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/layout/picker_title_bar.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/layout/picker_title_bar.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/layout/picker_title_bar_stub.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/layout/picker_title_bar_stub.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/layout/pickers.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/layout/pickers.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/layout/selection.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/layout/selection.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/layout/splash.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/layout/splash.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/layout/usersettings_fragment.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/layout/usersettings_fragment.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/values-hdpi/dimens.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/values-hdpi/dimens.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/values-ldpi/dimens.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/values-ldpi/dimens.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/values-mdpi/dimens.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/values-mdpi/dimens.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/values-xhdpi/dimens.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/values-xhdpi/dimens.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/values/attrs.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/values/attrs.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/values/colors.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/values/colors.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/values/dimens.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/values/dimens.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/values/drawables.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/values/drawables.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/values/strings.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/values/strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/Scrumptious/res/values/styles.xml => olmatechFit/src/main/resources/samples/Scrumptious/res/values/styles.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/SwitchUserSample/AndroidManifest.xml => olmatechFit/src/main/resources/samples/SwitchUserSample/AndroidManifest.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/SwitchUserSample/build.gradle => olmatechFit/src/main/resources/samples/SwitchUserSample/build.gradle
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/SwitchUserSample/proguard-project.txt => olmatechFit/src/main/resources/samples/SwitchUserSample/proguard-project.txt
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/SwitchUserSample/res/drawable-hdpi/ic_action_discard.png => olmatechFit/src/main/resources/samples/SwitchUserSample/res/drawable-hdpi/ic_action_discard.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/SwitchUserSample/res/drawable-hdpi/ic_action_settings.png => olmatechFit/src/main/resources/samples/SwitchUserSample/res/drawable-hdpi/ic_action_settings.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/SwitchUserSample/res/drawable-hdpi/icon.png => olmatechFit/src/main/resources/samples/SwitchUserSample/res/drawable-hdpi/icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/SwitchUserSample/res/drawable-mdpi/ic_action_discard.png => olmatechFit/src/main/resources/samples/SwitchUserSample/res/drawable-mdpi/ic_action_discard.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/SwitchUserSample/res/drawable-mdpi/ic_action_settings.png => olmatechFit/src/main/resources/samples/SwitchUserSample/res/drawable-mdpi/ic_action_settings.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/SwitchUserSample/res/drawable-mdpi/icon.png => olmatechFit/src/main/resources/samples/SwitchUserSample/res/drawable-mdpi/icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/SwitchUserSample/res/drawable-xhdpi/ic_action_discard.png => olmatechFit/src/main/resources/samples/SwitchUserSample/res/drawable-xhdpi/ic_action_discard.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/SwitchUserSample/res/drawable-xhdpi/ic_action_settings.png => olmatechFit/src/main/resources/samples/SwitchUserSample/res/drawable-xhdpi/ic_action_settings.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/SwitchUserSample/res/drawable-xhdpi/icon.png => olmatechFit/src/main/resources/samples/SwitchUserSample/res/drawable-xhdpi/icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/SwitchUserSample/res/drawable/icon.png => olmatechFit/src/main/resources/samples/SwitchUserSample/res/drawable/icon.png
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/SwitchUserSample/res/layout/fragment_profile.xml => olmatechFit/src/main/resources/samples/SwitchUserSample/res/layout/fragment_profile.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/SwitchUserSample/res/layout/list_item_user.xml => olmatechFit/src/main/resources/samples/SwitchUserSample/res/layout/list_item_user.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/SwitchUserSample/res/layout/main.xml => olmatechFit/src/main/resources/samples/SwitchUserSample/res/layout/main.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/SwitchUserSample/res/menu/context_settings.xml => olmatechFit/src/main/resources/samples/SwitchUserSample/res/menu/context_settings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/SwitchUserSample/res/menu/options_profile.xml => olmatechFit/src/main/resources/samples/SwitchUserSample/res/menu/options_profile.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/samples/SwitchUserSample/res/values/strings.xml => olmatechFit/src/main/resources/samples/SwitchUserSample/res/values/strings.xml
+* /home/oborissova/Documents/android_apps/facebook-android-sdk-4.0.0/settings.gradle => olmatechFit/src/main/resources/settings.gradle
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

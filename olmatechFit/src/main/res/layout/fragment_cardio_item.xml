@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ex_view_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"   
+    android:paddingTop="4dp"
+    android:background="@color/bgcolor" >  
+    <!-- Tick -->
+	 <com.olmatech.fitness.controls.AppTickImageView
+	     android:id="@+id/imgArrow"
+	     android:layout_width="@dimen/arrow_img"
+	     android:layout_height="@dimen/arrow_img"
+	     android:layout_alignBottom="@+id/txt_time"
+	     android:layout_marginBottom="10dp"
+	     android:layout_marginRight="10dp"
+	     android:layout_alignParentLeft="true" 
+	     android:adjustViewBounds="true"
+	     android:scaleType="fitXY"
+	     android:background="@drawable/arrow_right_anim" />
+ <!-- message -->
+  <TextView
+      android:id="@+id/title_speed"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"      
+      android:layout_marginTop="10dp"
+      android:layout_marginBottom="10dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:gravity="center_horizontal|center_vertical"
+      android:text="@string/cardio_msg_common"
+      android:textSize="14sp" 
+      android:textColor="@color/dark_yellow"
+      android:textStyle="bold" />
+	 <!--  treadmill -->   
+ 	 <ImageView android:id="@+id/img_treadmill"
+  	    android:layout_width="@dimen/cardio_eq_img"
+  	    android:layout_height="@dimen/cardio_eq_img"
+  	    android:layout_alignBottom="@+id/txt_time"  	   
+  	    android:layout_marginRight="20dp"	 
+  	    android:layout_toRightOf="@+id/imgArrow"	       
+  	    android:adjustViewBounds="true"  	    
+  	    android:scaleType="fitXY"
+  	    android:src="@drawable/cardio1" /> 
+  	 <!-- Time -->
+  	 <TextView android:id="@+id/txt_time"
+	        style="@style/timerTextStyle"
+	        android:background="@drawable/form_edit_bg"	
+	        android:layout_toRightOf="@+id/img_treadmill" 
+	         android:layout_below="@+id/title_speed"
+	        android:text="00:00" />
+  	 <!--  Done button -->
+   <com.olmatech.fitness.controls.AppButton
+       android:id="@+id/but_start"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBottom="@+id/txt_time"
+       android:layout_alignParentRight="true"
+       android:layout_marginRight="20dp"
+       android:background="@drawable/blue_but_selector"
+       android:padding="6dp"
+       android:text="@string/start"
+       android:textAppearance="@style/ListButtonText" /> 
+  <ProgressBar android:id="@+id/progrBarTacktical"
+	    style="?android:attr/progressBarStyleHorizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"	  
+	    android:layout_below="@+id/txt_time"
+	    android:layout_marginBottom="10dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="40dp"
+	    android:layout_marginRight="40dp"
+	    android:indeterminate="false"
+	    android:maxHeight="10dip"
+	    android:minHeight="10dip"
+	    android:progress="50"
+	    android:progressDrawable="@drawable/progress_bar" />
+  <!-- divider -->
+  	<View
+  	    android:layout_width="match_parent"
+  	    android:layout_height="2dp"
+  	    android:layout_below="@+id/progrBarTacktical"
+  	    android:background="@color/dkgray" />  
+</RelativeLayout>

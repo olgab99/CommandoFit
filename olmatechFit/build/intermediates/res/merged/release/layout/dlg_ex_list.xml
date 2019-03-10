@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bgcolor" >
+  <TextView android:id="@+id/txtDlgTitle"
+        style="@style/dlgMenuTitle"        
+        android:text="@string/ex_list" />  
+    <fragment android:name="com.olmatech.fitness.view.ExListFragment"
+        android:id="@+id/dlgExListFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />  
+
+    <com.olmatech.fitness.controls.AppButton
+        android:id="@+id/butDlgClose"
+        style="@style/blueButton"
+        android:layout_gravity="center_horizontal"        
+        android:text="@string/close" />
+
+</LinearLayout>

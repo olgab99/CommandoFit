@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>   
+     <!-- center part -->
+     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_centerInParent="true" android:paddingBottom="4dp"  android:paddingTop="4dp"
+         android:paddingLeft="10dp" android:paddingRight="10dp"  
+         android:weightSum="1"           
+         android:orientation="horizontal"  >               
+        <!--  left part -->
+        <RelativeLayout android:layout_width="0dp"
+         	android:layout_height="match_parent"
+         	android:paddingLeft="10dp" android:paddingRight="10dp" 
+         	android:layout_weight="0.54">       
+      <LinearLayout android:layout_width="match_parent"
+         android:layout_height="wrap_content"         
+         android:layout_gravity="center_vertical"
+         android:layout_centerInParent="true"
+         android:orientation="vertical" >         
+        <!--  titles -->
+          <LinearLayout android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:weightSum="1"               
+              android:orientation="horizontal" >
+          <TextView android:id="@+id/wheel_wt_title"
+              style="@style/wheelTitle"
+              android:layout_weight="0.4"             
+              android:gravity="center"             
+              android:text="@string/weight" />    
+          <View android:layout_width="0dp"
+         	android:layout_height="10dp" 
+         	 android:layout_weight="0.2"
+              />     
+            <TextView
+                style="@style/wheelTitle"
+                android:layout_weight="0.4"
+                android:gravity="center"
+       			 android:text="@string/reps" />  
+          </LinearLayout>
+          <!-- wheels -->
+          <LinearLayout android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:weightSum="1" 
+              android:orientation="horizontal" >
+            <kankan.wheel.widget.WheelView android:id="@+id/wheel_weight" 
+		        android:layout_height="wrap_content"
+		        android:layout_width="0dp" android:layout_weight="0.4"/>
+            <RelativeLayout android:layout_width="0dp"
+		        android:layout_height="match_parent"
+		        android:layout_weight="0.2" >
+              <ImageView android:id="@+id/circle_mark"
+		        android:layout_width="20dp"
+		        android:layout_height="20dp"
+		        android:layout_centerInParent="true"
+		        android:layout_gravity="center_vertical|center_horizontal"        
+		        android:adjustViewBounds="true"
+		        android:gravity="center_vertical|center_horizontal"
+		        android:scaleType="fitCenter"
+		        android:src="@drawable/circle" />   
+            </RelativeLayout>
+           <kankan.wheel.widget.WheelView android:id="@+id/wheel_reps"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp" android:layout_weight="0.4" />           
+           </LinearLayout> <!--  end wheels -->          
+      </LinearLayout>          
+       </RelativeLayout>  <!-- left part end -->
+      <!--  sets -->
+      <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="0dp"   
+        android:layout_weight="0.46"        
+         android:orientation="vertical"  
+         android:layout_gravity="center_vertical"
+	     android:gravity="center_vertical" >
+         <TextView
+	        android:id="@+id/setsTitle"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"	        
+	        android:background="@drawable/text_sets_bg"
+	        android:gravity="center_horizontal"
+	        android:padding="4dp"
+	        android:layout_marginTop="10dp"
+	        android:layout_marginBottom="6dp"
+	        android:text="SET 2 OF 10"
+	        android:textAppearance="@style/wheelTitleText"  />  
+         <LinearLayout android:layout_height="wrap_content"
+        		android:layout_width="match_parent"   
+             	android:weightSum="1"
+             	android:orientation="horizontal"
+             >
+             <RelativeLayout android:layout_width="0dp"
+		        android:layout_height="match_parent"  
+		        android:layout_weight="0.5" 	
+		        android:layout_gravity="left"
+	     		android:gravity="left" >
+              <!--  log -->
+				<ListView android:id="@+id/listLog"       
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent" 
+			        android:background="@drawable/text_sets_bg"  
+					android:padding="6dp"  
+					android:layout_marginBottom="6dp"
+			        android:cacheColorHint="#00000000"
+			        android:drawSelectorOnTop="false"
+			        android:paddingTop="@dimen/list_pad_top_bot"
+			        android:paddingBottom="@dimen/list_pad_top_bot"
+			        android:divider = "@android:color/transparent"
+			        android:dividerHeight ="6dp"
+					android:listSelector="@android:color/transparent" 
+					android:scrollbarAlwaysDrawVerticalTrack="true"
+				    android:scrollbarStyle="insideOverlay"  /> 		    
+				 <!--  log edit button -->
+			   <ImageView android:id="@+id/but_log_edit"
+		        android:layout_width="50dp"
+		        android:layout_height="50dp"
+		        android:layout_alignParentBottom="true"
+		        android:layout_marginBottom="6dp"
+		        android:layout_alignParentRight="true"
+		        android:layout_marginRight="6dp"
+		        android:adjustViewBounds="true"
+		        android:onClick="onEditLogClick"
+		        android:scaleType="fitXY"
+		        android:src="@drawable/edit" />
+			</RelativeLayout>
+		    <RelativeLayout android:layout_width="0dp"
+		        android:layout_height="match_parent"  
+		        android:layout_weight="0.5" 	
+		        android:gravity="center_vertical" >
+            <ImageView android:id="@+id/butSave"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"	
+			    android:maxWidth="60dp"		    	
+			    android:layout_centerHorizontal="true"
+			    android:adjustViewBounds="true"
+			    android:src="@drawable/save_calculate" />
+            </RelativeLayout> 
+         </LinearLayout>         
+      </LinearLayout>    
+   </LinearLayout>

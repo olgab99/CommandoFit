@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbarStyle="insideOverlay" >
+
+<RelativeLayout 
+    android:layout_width="match_parent"
+	android:layout_height="wrap_content" >
+    <!--  default image -->
+    <ImageView
+        android:id="@+id/img_zones_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cardio_zones_default" android:visibility="gone" />
+     <!-- Zones -->
+  <LinearLayout 
+      android:id="@+id/hr_container_zones" 
+      android:layout_width="match_parent"
+	  android:layout_height="wrap_content" 
+	  android:visibility="visible"
+	  android:orientation="vertical" >
+  <TextView android:id="@+id/hr_msg"
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"	       
+	     android:layout_marginBottom="@dimen/margin_top_bot"	     
+	     android:gravity="center_horizontal"
+	     android:text="Your estimated target heart rate zone 118 - 143 beats per minute"
+	     android:textAppearance="@style/formTitleText" />  
+  <TextView android:id="@+id/hr_maxZoneTitle"
+         style="@style/cardioZone"                 
+	     android:background="#F57B75"
+	     android:text="Red&#8211;Line Zone 90% &#8211; 100% (Maximum effort)" /> 
+   <TextView android:id="@+id/hr_maxZone"
+         style="@style/cardioZone"	                      
+	     android:background="#F57B75"
+	     android:text="100-120" />  
+  <TextView android:id="@+id/hr_hardcoreZoneTitle"
+	     style="@style/cardioZone"	      	         
+	     android:background="#F9AC81"
+	     android:text="Anaerobic Threshold Zone 80% &#8211; 90% (Hardcore training)" /> 	     
+   <TextView android:id="@+id/hr_hardcoreZone"
+	     style="@style/cardioZone"  	        	          
+	     android:background="#F9AC81"
+	     android:text="100-120" /> 	     
+	 <TextView android:id="@+id/hr_endurZoneTitle"
+	     style="@style/cardioZone"	      	       
+	     android:background="#F2F661"
+	     android:text="Aerobic Zone 70% &#8211; 80% (Cardio training / Endurance)" /> 
+	  <TextView android:id="@+id/hr_endurZone"
+	     style="@style/cardioZone"  	        
+	     android:background="#F2F661"
+	     android:text="100-120" />    	 
+	 <TextView android:id="@+id/hr_fitnessZoneTitle"
+	     style="@style/cardioZone"		        
+	     android:background="#8BB3EA"
+	     android:text="Weight Management Zone 60% &#8211; 70% (Fitness / Fat burn)" /> 
+	<TextView android:id="@+id/hr_fitnessZone"
+	     style="@style/cardioZone"              
+	     android:background="#8BB3EA"
+	     android:text="100-120" />   	 
+	<TextView android:id="@+id/hr_warmupZoneTitle"
+	     style="@style/cardioZone" 	            
+	     android:background="#AFF47D"
+	     android:text="Heart Healthy Zone 50% &#8211; 60% (Maintenance / Warm up)" /> 
+	<TextView android:id="@+id/hr_warmupZone"
+	     style="@style/cardioZone" 	      
+	     android:background="#AFF47D"
+	     android:text="100-120" /> 
+	</LinearLayout> 
+</RelativeLayout>
+</ScrollView>

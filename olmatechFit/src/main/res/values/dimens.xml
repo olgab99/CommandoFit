@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+	<dimen name="padding_aver">8dp</dimen>
+	<dimen name="list_item_height">80dp</dimen>
+	<dimen name="list_item_height_tab">120dp</dimen>
+	<dimen name="margin_top_bot">6dp</dimen>
+	<dimen name="rail_width">6dp</dimen>
+	<dimen name="list_pad_top_bot">8dp</dimen>
+	<dimen name="radio_group_padding">20dp</dimen>
+	<dimen name="wk_list_item_corner">10dp</dimen>
+	<dimen name="ex_list_item_corner">10dp</dimen>
+	<dimen name="button_lr_margin">20dp</dimen>
+	<dimen name="bot_fr_h">40dp</dimen>
+	<dimen name="bot_fr_h_tab">60dp</dimen>
+	<dimen name="cardio_eq_img">40dp</dimen>
+	<dimen name="cardio_eq_img_tab">80dp</dimen>
+	<dimen name="arrow_img">20dp</dimen>
+	<dimen name="arrow_img_tab">40dp</dimen>
+	<dimen name="list_wk_txt_sz">10sp</dimen>
+	<dimen name="wheel_title">10sp</dimen>
+	<dimen name="cal_day">12sp</dimen>
+	<dimen name="cal_item">8sp</dimen>
+	<dimen name="form_txt">14sp</dimen>	
+</resources>

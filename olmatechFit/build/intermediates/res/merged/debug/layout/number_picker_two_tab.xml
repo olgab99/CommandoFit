@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@+id/increment"
+        style="@style/numberPickerButtonStyleTab"
+         android:longClickable="false"
+        android:text="+" />
+    <TextView android:id="@+id/timepicker_input"
+        style="@style/numberPickerTextStyleTab"   
+        android:text="" />
+    <Button android:id="@+id/decrement"
+       style="@style/numberPickerButtonStyleTab"
+        android:longClickable="false"
+       android:text="-" />
+</merge>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<RelativeLayout 
+    style="@style/dlgContainer" >
+     <TextView android:id="@+id/fb_title"
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"     
+	     android:layout_marginBottom="@dimen/margin_top_bot"	  	     
+	     android:gravity="center_horizontal"
+	     android:text="@string/post_facebook"
+	     android:layout_alignParentTop="true"
+	     android:textAppearance="@style/formText" />
+
+     <com.facebook.widget.LoginButton
+         android:id="@+id/login_button"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/fb_title"
+         android:layout_marginBottom="6dp"
+         android:layout_marginTop="5dp" />
+
+     <com.facebook.widget.ProfilePictureView
+                    android:id="@+id/profilePicture"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/login_button"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="10dp" />
+     <TextView android:id="@+id/fb_subtitle"
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"     
+	     android:layout_marginBottom="@dimen/margin_top_bot"
+	     android:layout_below="@+id/profilePicture"
+	     android:layout_centerHorizontal="true"
+	     android:gravity="center_horizontal"
+	     android:text="@string/status_update"
+	     android:textAppearance="@style/formText" />
+    <EditText
+           android:id="@+id/fb_message"
+           style="@style/formEdit"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/button_lr_margin"
+            android:layout_marginRight="@dimen/button_lr_margin"
+           android:layout_below="@+id/fb_subtitle"
+           android:layout_centerHorizontal="true"
+           />
+     <com.olmatech.fitness.controls.AppButton
+	     android:id="@+id/fb_but_status_update"
+	     style="@style/blueButton" 
+	     android:layout_below="@+id/fb_message"
+	     android:onClick="onButtonClick" 
+	     android:textAllCaps="true"	  
+	     android:text="@string/post_status_update" />   
+	<com.olmatech.fitness.controls.AppButton
+	     android:id="@+id/fb_but_photo"
+	      style="@style/blueButton" 
+	     android:layout_below="@+id/fb_but_status_update"
+	     android:onClick="onButtonClick" 
+	     android:textAllCaps="true"	     
+	     android:text="@string/post_photo" />   	
+	 <com.olmatech.fitness.controls.AppButton
+	     android:id="@+id/fb_but_close"
+	      style="@style/blueButton" 
+	     android:layout_below="@+id/fb_but_photo"
+	     android:onClick="onButtonClick" 
+	     android:textAllCaps="true"	     
+	     android:text="@string/close" />   
+	<ProgressBar android:id="@+id/progr_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyle"
+        android:layout_centerInParent="true" />   
+</RelativeLayout>
+</ScrollView>
