@@ -3,21 +3,21 @@
 
     <item
         is-multidex="false"
-        jar="/home/oborissova/AndroidStudioProjects/OlmatechFit1/licensingCommon/build/intermediates/bundles/default/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="28.0.3"
-        sha1="0e0750af1ceefdc32f25c97ef033498542df3000">
-        <dex dex="/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/build/intermediates/pre-dexed/debug/classes_8066c07968748787f085b50abbf1145ad5eb5380.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/oborissova/AndroidStudioProjects/OlmatechFit1/wheel/build/intermediates/bundles/default/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="28.0.3"
         sha1="4a766a5f04e366cfac4e99c51590111939ed21e5">
-        <dex dex="/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/build/intermediates/pre-dexed/debug/classes_84a0ac0181b6719b4d97541565c80029d31df58e.jar" />
+        <dex dex="/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/build/intermediates/pre-dexed/release/classes_84a0ac0181b6719b4d97541565c80029d31df58e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/oborissova/AndroidStudioProjects/OlmatechFit1/licensingCommon/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="0e0750af1ceefdc32f25c97ef033498542df3000">
+        <dex dex="/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/build/intermediates/pre-dexed/release/classes_8066c07968748787f085b50abbf1145ad5eb5380.jar" />
     </item>
     <item
         is-multidex="false"
@@ -26,7 +26,7 @@
         optimize="true"
         revision="28.0.3"
         sha1="8b6b6b190290021c8e21bbc8294a1f348583e9bc">
-        <dex dex="/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/build/intermediates/pre-dexed/debug/classes_ad9e2dc12c9fc4246027515b60a2d8deaf7b424a.jar" />
+        <dex dex="/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/build/intermediates/pre-dexed/release/classes_ad9e2dc12c9fc4246027515b60a2d8deaf7b424a.jar" />
     </item>
 
 </items>

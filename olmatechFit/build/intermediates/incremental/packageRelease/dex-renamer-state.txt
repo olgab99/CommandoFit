@@ -1,4 +1,0 @@
-#Sat Mar 09 19:47:48 PST 2019
-base.0=/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/build/intermediates/transforms/dex/release/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/home/oborissova/AndroidStudioProjects/OlmatechFit1/olmatechFit/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex
